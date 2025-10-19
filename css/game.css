@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Atma:wght@300;400;500;600;700&family=Bad+Script&family=Bubbler+One&family=Chewy&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Coral+Pixels&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=Farsan&family=Great+Vibes&family=Handlee&family=Happy+Monkey&family=Just+Another+Hand&family=Kumar+One&family=Lily+Script+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mea+Culpa&family=Shadows+Into+Light&family=Tillana:wght@400;500;600;700;800&family=Trochut:ital,wght@0,400;0,700;1,400&family=Tsukimi+outlined&family=Twinkle+Star&family=Waiting+for+the+Sunrise&display=swap');
+
+:root {
+	--cell-size: 64px;
+	--main: #dddddd;
+	--realG: #aaaaaa;
+	--realL: #ffffff;
+}
+* {
+  transition: all .2s;
+}
+
+body {
+  background-image: linear-gradient(#0c0301, #2e1301, #7a3c08);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav a #active {
+	font-variation-settings:
+	'FILL' 1,
+	'wght' 150,
+	'GRAD' 0,
+	'opsz' 48;
+}
+
+.material-symbols-outlined {
+	color: #ffffff;
+	position: relative;
+	font-family: 'Material Symbols Outlined';
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 50,
+	'GRAD' 0,
+	'opsz' 48;
+	font-size: 40px;
+}
+
+.material-symbols-outlined:hover {
+	font-variation-settings:
+	'FILL' 1,
+	'wght' 50,
+	'GRAD' 0,
+	'opsz' 48;
+	filter: drop-shadow(0 0 4px #ffffff);
+	transform: scale(1.2);
+}
+
+#dialogo {
+	background-color: #ffffff;
+	color: #000000;
+	width: 250px;
+	height: 100px;
+	border-radius: 10px;
+	font-size: 25px;
+	font-family: atma, cursive;
+	text-align: left;
+	align-content: center;
+	padding: 25px;
+	padding-bottom: 50px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 200;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  box-shadow: 0 0 25px #fff565, 0 0 5px #fff565;
+}
+#tablero {
+	padding-bottom: 5%;
+}
+
+td {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  border: 2px solid #fffaae;
+  text-align: center;
+  vertical-align: middle;
+}
+
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+	background-color: #d6b031;
+}
+
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
+	background-color: #af7d12;
+}
+
+.pieza, .pieza.p1, .pieza.p2 {
+	width: 50px;
+	height: 50px;
+	align-content: center;
+	margin: auto;
+	padding: auto;
+	background: radial-gradient(var(--main), var(--main), var(--realG), var(--main), var(--main), var(--realL));
+	border-radius: 100%;
+	text-align: center;
+	font-size: 25px;
+	color: #101010;
+	filter: drop-shadow(0 0 5px #000000);
+}
+
+.efectos {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	z-index: 100;
+	text-align: center;
+	align-content: center;
+	font-size: 25px;
+}
+
+@keyframes dmgtake {
+	from { background-color: #ff000080;}
+	to {background-color: #ff000000;}
+}
+
+@keyframes die {
+	50% {background-color: #000000; color: #ffffff; text-shadow: 0 0 25px #ffffff; opacity: 100%;}
+	75% {background-color: #000000; color: #ffffff; text-shadow: 0 0 25px #ffffff; opacity: 100%;}
+	100% {opacity: 0%;}
+}
+
+@keyframes revive {
+	from {filter: brightness(120%); background-color: #fff06780; box-shadow: 0 0 15px #fff491; color: #c2a500;}
+	to{filter: brightness(100%);}
+}
+
+@keyframes buff {
+	from {background-color: #b3ff008c; color: #81c513; text-shadow: #9dff00;}
+}
+
+@keyframes debuff {
+	from {background-color: #36200db6;}
+}
+
+@keyframes sinergia {
+	to {background-color: #4737009a; color: #f0db64; text-shadow: 0 0 15px #e6b61c;}
+}
+
+@keyframes chosen {
+	to {transform: scale(1.25);}
+}

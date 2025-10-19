@@ -1,0 +1,150 @@
+:root {
+	--main: #dddddd;
+	--realG: #aaaaaa;
+	--realL: #ffffff;
+}
+
+body {
+	background-image: linear-gradient(#070400, #2b1901);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#willowF {
+	filter: hue-rotate(-180deg)
+	brightness(70%)
+	contrast(250%)
+	saturate(200%)
+	drop-shadow(0 0 5px #000000);
+}
+#sara {
+	filter: hue-rotate(5deg)
+	brightness(75%)
+	contrast(150%)
+	saturate(250%)
+	drop-shadow(0 0 5px #000000);
+}
+#akane {
+	filter: hue-rotate(-40deg)
+	brightness(60%)
+	contrast(300%)
+	saturate(100%)
+	drop-shadow(0 0 5px #000000);
+}
+#nero {
+	filter: hue-rotate(50deg)
+	brightness(70%)
+	contrast(130%)
+	saturate(150%)
+	drop-shadow(0 0 5px #000000);
+}
+#akiko {
+	filter: hue-rotate(15deg)
+	brightness(100%)
+	contrast(150%)
+	saturate(200%)
+	drop-shadow(0 0 5px #000000);
+}
+#ayame {
+	filter: hue-rotate(50deg)
+	brightness(110%)
+	contrast(100%)
+	saturate(200%)
+	drop-shadow(0 0 5px #000000);
+}
+#melissa{
+	filter: hue-rotate(-150deg)
+	brightness(60%)
+	contrast(170%)
+	saturate(175%)
+	drop-shadow(0 0 5px #000000);
+}
+#adam {
+	filter: hue-rotate(-7deg)
+	brightness(90%)
+	contrast(110%)
+	saturate(250%)
+	drop-shadow(0 0 5px #000000);
+}
+#adamEmo {
+	filter: hue-rotate(-15deg)
+	brightness(50%)
+	contrast(150%)
+	saturate(200%)
+	drop-shadow(0 0 5px #000000);
+}
+#brayan{
+	filter: hue-rotate(100deg)
+	brightness(65%)
+	contrast(170%)
+	saturate(200%)
+	drop-shadow(0 0 5px #000000);
+}
+#brayanRedim{
+	filter: hue-rotate(100deg)
+	brightness(45%)
+	contrast(150%)
+	saturate(250%)
+	drop-shadow(0 0 5px #000000);
+}
+#brayanSab{
+	filter: hue-rotate(100deg)
+	brightness(35%)
+	contrast(130%)
+	saturate(250%)
+	drop-shadow(0 0 5px #000000);
+}
+
+@keyframes dmgtake {
+	from { background-color: #ff000080;}
+	to {background-color: #ff000000;}
+}
+
+@keyframes die {
+	50% {background-color: #000000; color: #ffffff; text-shadow: 0 0 25px #ffffff; opacity: 100%;}
+	75% {background-color: #000000; color: #ffffff; text-shadow: 0 0 25px #ffffff; opacity: 100%;}
+	100% {opacity: 0%;}
+}
+
+@keyframes revive {
+	from {filter: brightness(120%); background-color: #fff06780; box-shadow: 0 0 15px #fff491; color: #c2a500;}
+	to{filter: brightness(100%);}
+}
+
+@keyframes buff {
+	from {background-color: #b3ff008c; color: #81c513; text-shadow: #9dff00;}
+}
+
+@keyframes debuff {
+	from {background-color: #36200db6;}
+}
+
+@keyframes sinergia {
+	to {background-color: #4737009a; color: #f0db64; text-shadow: 0 0 15px #e6b61c;}
+}
+
+@keyframes chosen {
+	to {transform: scale(1.25);}
+}
+
+.pieza {
+	background: radial-gradient(var(--main), var(--main), var(--realG), var(--main), var(--main), var(--realL));
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	text-align: center;
+	align-content: center;
+	font-size: 25px;
+	color: #101010;
+}
+
+#efectos {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	z-index: 100;
+	text-align: center;
+	align-content: center;
+	font-size: 25px;
+}
