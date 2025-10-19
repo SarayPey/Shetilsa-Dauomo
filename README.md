@@ -1,13 +1,21 @@
-# Shetilsa-Dauomo
+# Shetilsa Dauomo
+
+Estado actual: Solo puedes chusmear en idles de cuatro personajes.
 
 ## Mecánicas
-Damas + ajedrez + habilidades de juegos RPG + lore + creadora + html =  *¿SHETILSA DAUOMO?*  
+Damas + ajedrez + habilidades de juegos RPG + lore(fantasía * traumas) + creadora(creativa + multifacética(estudiante de Programación + dibujante + gachatuber + gamer + escritora) - tiempo libre) + html + css + JavaScript + apoyo de Chat-GPT =  *¿SHETILSA DAUOMO?*  
 
 **¿Por qué?**
 
 - Elimina las fichas de tu oponente los más pronto posible.
 - ¡Personajes únicos con historia y habilidades especiales!
+	- De hecho, tienen diálogos de habilidades como si fuera un juego estilo *Genshin Impact*, *SkullGirls* o [inserte juego].
+	- Adicionalmente tienen diálogos de idle (o calma antes del trauma como le digo yo) ver morir a aliados, acabar a un aliado, morir o revivir. ¡Incluso se está viendo la posibilidad de agregar diálogos entre personajes
 - Movimientos variados, ¿vertical? ¿horizontal? ¿diagonal? ¡De todo hay!
 - Desde las clásicas habilidades de protección y extra daño hasta esas y sufridoras molestas habilidades que cambian toda la mecánica.
+	- En serio, hasta hay habilidades para revivir piezas muertas.
+- Solo hecho con HTML 5, CSS y JavaScript.
 
-<small>Se puede jugar si tienes acceso a internet y a un navegador.</small># Shetilsa-Dauomo
+<small>Solo se puede jugar si tienes acceso a internet, un navegador y un amigo en la vida real que quiera jugar algo re complejo. No se paga la terapia por los daños emocionales que este juego pueda causar.</small>
+
+<small>Otra cosita, como no he puesto sistema de cuentas y demás (porque no sé cómo hacer eso), la información de peleas ganadas se va a perder. Sorry 😔</small>

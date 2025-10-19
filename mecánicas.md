@@ -71,34 +71,43 @@
 
 ## Canon
 
+|N° |Personaje|Pieza|Explicación|Movimiento básico|Enfoque principal|
+|---|-|-|-|-|-|
+|001|Melissa|Detective talentosa| Figura más reciente|Vertical|Sigilo y defensa|
+|002|Alexa|Deportista valerosa| Figura más reciente|Vertical|Ataque, tanque y sigilo|
+|003|Erin|Teniente investigador|Época actual de su rol como teniente|Vertical|Tanque y control de campo|
+|004|Evelyn|Hacker de élite policial|Figura más reciente, cuando entró al sector 970|Vertical|Buffer, control de campo y ataque|
+|005|Luis|Defensor de niños| Figura más reciente|Vertical|Ataque, buffer y curación|
+|006|Maryam|Liberadora de la verdad|Época actual de su rol como detective del sector 42|Vertical|Sigilo, defensa y curación|
+|007|Eneko| Niño de Sombrarix|Cuando se volvió un híbrido de mochibria y shadowixh|Diagonal|Sinergia, sigilo y buffer|
+|008|Thomas| Cazador de venganza|Figura más reciente|Diagonal|Ataque y sigilo|
+|009|Odess| Doctora de corazones|Figura más reciente|Diagonal|Curación y buffer|
+|010|Brayan| Bromista experto en espionaje| Finalmente redimido|Vertical|Ataque y buffer| 
+|011|Adam| Renacido de las cenízas|Una vez que se quiere a sí mismo|Diagonal|Curación y defensa|
+|012|Eivor|Informante de la suerte|Figura más reciente|Diagonal| Control de campo|
+|013|Akiko| Sanadora de la hoja dorada| Figura más reciente|Diagonal|Curación y control de campo| 
+
+## Elesterlios y Visterlios
+|N° |Personaje|Pieza|Explicación|Movimiento básico|Enfoque principal|
+|---|-|-|-|-|-|
+|001|Ayame|Brote en crecimiento|Figura más reciente|Diagonal|Invocación y curación|
+
+## Extra
 |N° | Personaje | Pieza															 | Explicación | Movimiento básico | Enfoque principal  |
 |---| --------- | ---------------------------------- | ----------- | ----------------- | ------------------ |
-|001|Melissa| Detective talentosa						| Figura más reciente 								 		 					 |Vertical| Sigilo y defensa |
-|002|Alexa | Deportista valerosa						| Figura más reciente 								 		 					 |Vertical| Ataque, tanque y sigilo |
-|003|Erin	 | Teniente investigador					| Época actual de su rol como teniente 		 					 |Vertical| Tanque y control de campo |
-|004|Erin  | Agente de corazón							| De cuando era agente del sector 970  		 					 |Vertical| Ataque y buffer |
-|005|Evelyn| Viajera digital, moral variable| De sus tiempos como hacker independiente 					 |Vertical| Debuffer, control de campo y sigilo|
-|006|Evelyn| Hacker de élite policial				| Figura más reciente, cuando entró al sector 970 	 |Vertical| Buffer, control de campo y ataque|
-|007|Luis  | Defensor de niños							| Figura más reciente 															 |Vertical| Ataque, buffer y curación |
-|008|Maryam| Detective de la rosa						| Cuando era detective del sector 970 							 |Vertical| Defensa |
-|009|Maryam| Esperanza caída 								| Del tiempo que estuvo encerrada en Sombrarix 			 |Vertical| Defensa y debuffer |
-|010|Maryam| Liberadora de la verdad				| Época actual de su rol como detective del sector 42|Vertical| Sigilo, defensa y curación |
-|011|Eneko | Anhelos de humanidad						| Cuando era un shadowixh puro 											 |Diagonal| Sigilo e invocación |
-|012|Eneko | Niño de Sombrarix 							| Cuando se volvió un híbrido de mochibria y shadowixh|Diagonal| Sinergia, sigilo y buffer |
-|013|Thomas| Cazador de venganza						| Figura más reciente 															 |Diagonal| Ataque y sigilo |
-|014|Odess | Doctora de corazones						| Figura más reciente 															 |Diagonal| Curación y buffer |
-|015|Brayan| Especialista en sabotaje				| De cuando le hacía la vida imposible a Adam 			 |Horizontal| Debuffer y ataque |
-|016|Brayan| Redención del saboteador				| Se da cuenta de sus errores y trata de cambiar 		 |Horizontal| Tanque |
-|017|Brayan| Bromista experto en espionaje	| Finalmente redimido 															 |Vertical| Ataque y buffer | 
-|018|Adam  | Curiosidad desbordante					| Cuando era un niño feliz 													 |Diagonal| Buffer y defensa |
-|019|Adam  | Psicólogo con alma de detective| De cuando trabajaba de psicólogo 									 |Horizontal| Tanque |
-|020|Adam  | Optimista impostor				 			| De cuando fingía ser feliz por el bien del equipo  |Vertical| Curación, defensa y tanque |
-|021|Adam  | Caida de la máscara				 		| Climax de *Expedición Sombrarix: renacer* 				 |Vertical| Debuffer |
-|022|Adam  | Renacer del optimista			 		| Cuando empieza a evolucionar positivamente 				 |Vertical| Debuffer, curación y tanque | 
-|023|Adam  | Renacido de las cenízas		 		| Una vez que se quiere a sí mismo  								 |Diagonal| Curación y defensa |
-|024|Eivor | Informante de la suerte 	 			| Figura más reciente 															 |Diagonal| Control de campo |
-|025|Akiko | Sanadora de la hoja dorada 		| Figura más reciente 															 |Diagonal| Curación y control de campo | 
-|026|Ayame |	Brote en crecimiento					| Figura más reciente																 |Diagonal| Invocación y curación |
+|001|Erin  | Agente de corazón							| De cuando era agente del sector 970  		 					 |Vertical| Ataque y buffer |
+|002|Evelyn| Viajera digital, moral variable| De sus tiempos como hacker independiente 					 |Vertical| Debuffer, control de campo y sigilo|
+|003|Maryam| Detective de la rosa						| Cuando era detective del sector 970 							 |Vertical| Defensa |
+|004|Maryam| Esperanza caída 								| Del tiempo que estuvo encerrada en Sombrarix 			 |Vertical| Defensa y debuffer |
+|005|Eneko | Anhelos de humanidad						| Cuando era un shadowixh puro 											 |Diagonal| Sigilo e invocación |
+|006|Brayan| Especialista en sabotaje				| De cuando le hacía la vida imposible a Adam 			 |Horizontal| Debuffer y ataque |
+|007|Brayan| Redención del saboteador				| Se da cuenta de sus errores y trata de cambiar 		 |Horizontal| Tanque |
+|008|Adam  | Curiosidad desbordante					| Cuando era un niño feliz 													 |Diagonal| Buffer y defensa |
+|009|Adam  | Psicólogo con alma de detective| De cuando trabajaba de psicólogo 									 |Horizontal| Tanque |
+|010|Adam  | Optimista impostor				 			| De cuando fingía ser feliz por el bien del equipo  |Vertical| Curación, defensa y tanque |
+|011|Adam  | Caida de la máscara				 		| Climax de *Expedición Sombrarix: renacer* 				 |Vertical| Debuffer |
+|012|Adam  | Renacer del optimista			 		| Cuando empieza a evolucionar positivamente 				 |Vertical| Debuffer, curación y tanque | 
+
 
 ## AUs
 
@@ -159,14 +168,14 @@
 
 | N°| Personaje 		 | Pieza | Explicación | Movimiento básico | Enfoque principal  |
 |---| -------------- | ----- | ----------- | ----------------- | ------------------ |
-|001| Ezer McMishan  | - 		 | - 					 | -								 | -									|
-|002| Daliah Heart 	 | - 		 | - 					 | -								 | -									|
-|003| Zoe Syrielat 	 | - 		 | - 					 | -								 | -									|
-|004| Mahid Daerbier | - 		 | - 					 | -								 | -									|
-|005| Léon Huff			 | - 		 | - 					 | -								 | -									|
-|006| Alice Mason		 | - 		 | - 					 | -								 | -									|
-|007| Erick Craig		 | - 		 | - 					 | -								 | -									|
-|008| Mini-Boyer 		 | - 		 | - 					 | -								 | -									|
+|001| Ezer McMishan  | - | - | - | - |
+|002| Daliah Heart 	 | - | - | - | - |
+|003| Zoe Syrielat 	 | - | - | - | - |
+|004| Mahid Daerbier | - | - | - | - |
+|005| Léon Huff			 | - | - | - | - |
+|006| Alice Mason		 | - | - | - | - |
+|007| Erick Craig		 | - | - | - | - |
+|008| Mini-Boyer 		 | - | - | - | - |
 
 
 ***

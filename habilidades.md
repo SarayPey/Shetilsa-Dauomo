@@ -130,7 +130,7 @@ Le otorga el efecto 'Intolerancia al café', lo que cancela sus efectos y lo dej
 **Nivel de poder:** Poderosa  
 "*Condición: Solo queda Informante de la suerte como ficha aliada.*  
 Al activar, Eivor crea un campo de dados por su camino, si algún enemigo intenta acercarse al campo, tiene un 50% de probabilidad de ser eliminado o ser empujado a una esquina del tablero."  
-**Diálogos:** *"Atrévete ahora."*, *"Bueno, bueno, ¿soy solo yo?"*, *"¡Final absoluto!"*
+**Diálogos:** *"Atrévete ahora."*, *"Bueno, bueno, ¿soy solo yo?"*, *"¡Final absoluto!"*, *"Seré la última, pero no perderé."*
 
 ***
 
