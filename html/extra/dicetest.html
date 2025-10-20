@@ -1,11 +1,19 @@
+<!--Código hecho siguiendo este tutorial: -->
+<!--Chat-GPT me "ayudó" a modificarlo para arreglar unos bugs del tutorial original y otras cosas-->
+<!--Algún día podré hacer algo así (o mejor) sin ayuda 😭-->
+<!--Mi meta es hacer que caiga del cielo y después cambie el dado si es necesario-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dado con rebote y rodado realista 🎲</title>
+	<title>Dice test</title>
 	<style>
-		* {margin:0; padding:0; box-sizing:border-box;}
+		* {
+				margin:0;
+			 	padding:0;
+				box-sizing:border-box;
+		}
 		body {
 			height:100vh;
 			display:flex;
@@ -32,6 +40,15 @@
 			border:5px solid #f6f3f0;
 			background:linear-gradient(145deg,#dddbd8,#fff);
 		}
+		.lado.eivor {
+			position:absolute;
+			width:100%;
+			height:100%;
+			border-radius:5px;
+			border:5px solid #09053a;
+			background:linear-gradient(145deg,#060325,#110966);
+		}
+		
 		.lado::before {
 			content:'';
 			position:absolute;
@@ -41,6 +58,15 @@
 			background:#f6f3f0;
 			transform:translateZ(-1px);
 		}
+		.lado.eivor::before {
+			content:'';
+			position:absolute;
+			width:100%;
+			height:100%;
+			border-radius:20px;
+			background:#09053a;
+			transform:translateZ(-1px);
+		}
 		.lado::after {
 			content:'';
 			position:absolute;
@@ -48,6 +74,15 @@
 			width:18px; height:18px;
 			border-radius:50%;
 			background:#131210;
+		}
+		.lado.eivor::after {
+			content:'';
+			position:absolute;
+			top:50%; left:50%;
+			width:18px; height:18px;
+			border-radius:50%;
+			background:#2172dd;
+			color: #2172dd;
 		}
 		.frontal  {
 			transform:translateZ(50px);
@@ -70,14 +105,26 @@
 		.frontal::after  {
 			width:30px;
 			height:30px;
-			background:#f63330;
+			background:#d10f0c;
+			margin:-15px 0 0 -15px;
+		}
+		.frontal.eivor::after  {
+			width:30px;
+			height:30px;
+			background:#b4d10c;
 			margin:-15px 0 0 -15px;
 		}
 		.trasero::after  {
 			margin:-35px 0 0 -30px;
 			box-shadow:40px 0,0 25px, 40px 25px, 0 50px,40px 50px;
-			background:#f63330;
-			color: #f63330;
+			background:#d10f0c;
+			color: #d10f0c;
+		}
+		.trasero.eivor::after  {
+			margin:-35px 0 0 -30px;
+			box-shadow:40px 0,0 25px, 40px 25px, 0 50px,40px 50px;
+			background:#b4d10c;
+			color: #b4d10c;
 		}
 		.superior::after {
 			margin:-30px 0 0 -30px;
@@ -108,8 +155,18 @@
 		<div class="lado inferior"></div>
 	</div>
 
+	<div class="dado eivor">
+		<div class="lado eivor frontal"></div>
+		<div class="lado eivor trasero"></div>
+		<div class="lado eivor derecho"></div>
+		<div class="lado eivor izquierdo"></div>
+		<div class="lado eivor superior"></div>
+		<div class="lado eivor inferior"></div>
+	</div>
+
 <script>
 const dado = document.querySelector('.dado');
+const dadoEivor = document.querySelector('.dado.eivor');
 
 function randomdado() {
   const resultado = Math.floor(Math.random() * 6) + 1;
@@ -159,8 +216,56 @@ function rolldado(resultado) {
     }, 300);
   }, 2200);
 }
+function randomdadoEivor() {
+  const resultadoEivor = Math.floor(Math.random() * 6) + 1;
+  rolldadoEivor(resultadoEivor);
+}
+function rolldadoEivor(resultadoEivor) {
+  // Resetea animaciones previas
+  dadoEivor.style.transition = 'none';
+
+  // Punto de inicio aleatorio
+  const startX = Math.floor(Math.random() * 360);
+  const startY = Math.floor(Math.random() * 360);
+  dadoEivor.style.transform = `rotateX(${startX}deg) rotateY(${startY}deg)`;
+
+  // Reflow (asegura que el navegador “registre” el cambio)
+  void dadoEivor.offsetWidth;
+
+  // Activamos transición con frenado cinematográfico
+  dadoEivor.style.transition = 'transform 2.2s cubic-bezier(0.25, 1, 0.5, 1)';
+
+  // Rotaciones base (más vueltas = más drama 🎥)
+  const vueltasX = 360 * (3 + Math.floor(Math.random() * 2)); 
+  const vueltasY = 360 * (3 + Math.floor(Math.random() * 2)); 
+
+  let finalX = 0, finalY = 0;
+  switch (resultadoEivor) {
+    case 1: finalX = 0; finalY = 0; break;
+    case 2: finalX = -90; finalY = 0; break;
+    case 3: finalX = 0; finalY = 90; break;
+    case 4: finalX = 0; finalY = -90; break;
+    case 5: finalX = 90; finalY = 0; break;
+    case 6: finalX = 180; finalY = 0; break;
+  }
+
+  // 🎬 Giro principal
+  dadoEivor.style.transform = `rotateX(${vueltasX + finalX}deg) rotateY(${vueltasY + finalY}deg)`;
+
+  // 🎥 Rebote cinematográfico al detenerse
+  setTimeout(() => {
+    dadoEivor.style.transition = 'transform 0.3s ease-out';
+    dadoEivor.style.transform += 'rotateX(15deg) rotateY(-5deg)';
+
+    setTimeout(() => {
+      dadoEivor.style.transition = 'transform 0.2s ease-in';
+      dadoEivor.style.transform = `rotateX(${vueltasX + finalX}deg) rotateY(${vueltasY + finalY}deg)`;
+    }, 300);
+  }, 2200);
+}
 
 dado.addEventListener('click', randomdado);
+dadoEivor.addEventListener('click', randomdadoEivor);
 </script>
 </body>
 </html>
