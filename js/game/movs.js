@@ -3,7 +3,7 @@ let emotionalCharge 		   	 		= 0 				 		 // Cargas para Sentido del deber
 let dulceVigorizante 	        	= false 			   // Estado al activar Chef por pasatiempo
 let wetDisaster                 = false          // Estado al activar Sabotaje al líder
 let defiCond										= false					 // Condición para habilidades definitorias
-let active												= false
+let active											= false
 
 //										 Variables: debilidades																										                                                   //
 let coffeeIntolerance 	        = false 			 // Debilidad especial para Adam
