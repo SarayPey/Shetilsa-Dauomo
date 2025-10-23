@@ -199,7 +199,7 @@ const brayanRedim = new pieces("", '#42a667', '#14783b', '#44c976', tipoAlma[0],
 	basicTwo()
 );
 
-const brayan = new pieces("", '#29ab47', '#225c2f', '#61ed82 ', tipoAlma[3],
+const brayan = new pieces("", '#2eab47', '#226f2f', '#61ed82 ', tipoAlma[3],
 	"brayan", "Brayan", "Título", "Bromista experto en espionaje",
 	"Descripción",
 	"Descripción",
@@ -273,9 +273,47 @@ new pieces("", "#", "#", "#", tipoAlma[0],
 	],
 	[],
 	basicOne()
+);
 
-)
+const akiko = new pieces("", "#efe000", "#c49f00", "#fff777", tipoAlma[6],
+	"akiko", "Akiko", "El sol brillante", "Sanadora de la hoja dorada",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
 
 // Exportar
-export {adam, melissa, brayan, brayanSab, brayanRedim, adamEmo}
+export {adam, akiko, melissa, brayan, brayanSab, brayanRedim, adamEmo}
 // '#481880', '#24085c', '#772bb5'
