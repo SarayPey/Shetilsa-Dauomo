@@ -1,4 +1,4 @@
-import { adam, adamEmo, melissa, brayanSab } from "./game/dataP.js";
+import { adam, akiko, brayan, melissa, brayanSab, brayanRedim, adamEmo } from "./game/dataP.js";
 function idle(pieceObj){
     console.log("Llamando a " + pieceObj.nombre + " (" + pieceObj.piezanombre + ").")
     if (!pieceObj || !pieceObj.idleDialogo) return;
@@ -14,7 +14,7 @@ window.onload = () => {
   window.adamEmo = adamEmo;
   window.melissa = melissa;
   window.brayanSab = brayanSab;
-  const character = [adam, adamEmo, melissa, brayanSab];
+  const character = [adam,  melissa, akiko, brayan, brayanSab, brayanRedim, adamEmo];
 
   window.idle = idle;
 
@@ -63,9 +63,16 @@ window.onload = () => {
  for (let x of character){
     console.log("Iniciando iteración");
     console.log(x.varName + " (" + x.nombre + " - " + x.piezanombre + ").");
-    document.getElementById(`${x.varName}`).style.background = `radial-gradient(${x.col1}, ${x.col1}, ${x.col2}, ${x.col1}, ${x.col1}, ${x.col3})`;
-    document.getElementById(`${x.varName}`).textContent = x.tipAlma;
-    console.log("Estilo aplicado: " + x.nombre + " (" + x.piezanombre + ").");
+    let color = document.getElementById(`${x.varName}`)
+    if (color) {
+      color.style.background = `radial-gradient(${x.col1}, ${x.col1}, ${x.col2}, ${x.col1}, ${x.col1}, ${x.col3})`;
+      console.log((x.col1), (x.col2), (x.col3))
+      document.getElementById(`${x.varName}`).textContent = x.tipAlma;
+      console.log("Estilo aplicado: " + x.nombre + " (" + x.piezanombre + ").");
+    } else{
+      console.log("Ficha no existente en el tablero")
+      continue;
+    };
  };
 
   if (p1PiezaUno) {
