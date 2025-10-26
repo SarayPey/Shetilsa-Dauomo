@@ -19,20 +19,21 @@ body {
 }
 
 header {
-	font-size: 75px;
+	font-size: 70px;
   color: #825B00;
   background-image: linear-gradient(0deg, #825B00 40%, #FFE033 50%, #825B00 57%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+	font-family: cinzel decorative, Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 	padding: 1%;
-	font-family: cinzel decorative;
 }
 
 nav a {
 	text-decoration: none;
 	color: #ffffff;
+	width: max-content;
 }
 
 nav a #active {
@@ -61,7 +62,7 @@ nav a #active {
 	'wght' 50,
 	'GRAD' 0,
 	'opsz' 48;
-	filter: drop-shadow(0 0 4px #ffef5c);
+	filter: drop-shadow(0 0 4px #ffe600);
 	transform: scale(1.2);
 }
 .glyphicon.glyphicon-cloud {
@@ -118,12 +119,12 @@ tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
 	align-content: center;
 	margin: auto;
 	padding: auto;
-	background: radial-gradient(var(--main), var(--main), var(--realG), var(--main), var(--main), var(--realL));
+	background: radial-gradient(var(--main), var(--main), var(--realG), var(--main), var(--main), var(--main));
 	border-radius: 100%;
 	text-align: center;
 	font-size: 25px;
 	color: #050505;
-	filter: drop-shadow(0 0 5px #000000);
+	filter: drop-shadow(0 0 3px #000000);
 }
 
 .efectos {

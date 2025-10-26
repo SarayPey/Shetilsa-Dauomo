@@ -46,7 +46,7 @@ nav a #active {
 	'wght' 50,
 	'GRAD' 0,
 	'opsz' 48;
-	filter: drop-shadow(0 0 4px #ffffff);
+	filter: drop-shadow(0 0 4px #ffe600);
 	transform: scale(1.2);
 }
 
@@ -168,7 +168,7 @@ nav a #active {
 }
 
 .pieza {
-	background: radial-gradient(var(--main), var(--main), var(--realG), var(--main), var(--main), var(--realL));
+	background: radial-gradient(var(--main), var(--main), var(--realG), var(--main), var(--main), var(--main));
 	width: 60px;
 	height: 60px;
 	border-radius: 100%;

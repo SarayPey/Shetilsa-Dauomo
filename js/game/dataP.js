@@ -1,10 +1,10 @@
 import { pieces, tipoAlma } from "./gamepieces.js";
 import { pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn,
 	antiLookMask, dutySense, leaderSabotage } from "./dataH.js";
-import { basicOne, basicTwo, basicThree } from "./movs.js";
+import { basicOne, basicTwo, basicThree, absoluteEndMov, diceChangeMov, eternityMov, emergencyHealMov } from "./movs.js";
 
 // Adam
-const adam = new pieces("", '#fc9803', '#a15708', '#fcba35', tipoAlma[4],
+const adam = new pieces("", '#fc9803', '#a15708', '#fdfa95', tipoAlma[4],
 	"adam", "Adam", "Aquel que desafió su destino", "Renacido de las cenízas",
 	"Descripción corta",
 	"Descripción",
@@ -42,7 +42,7 @@ const adam = new pieces("", '#fc9803', '#a15708', '#fcba35', tipoAlma[4],
 	basicThree()
 );
 
-const adamEmo = new pieces("", '#bf6300', '#803500', '#e68a00', tipoAlma[4],
+const adamEmo = new pieces("", '#bf6300', '#803500', '#1f1210', tipoAlma[4],
 	"adamEmo", "Adam", "Aquel que desafió su destino", "Optimista impostor",
 	"Descripción corta",
 	"Descripción",
@@ -83,7 +83,7 @@ const adamEmo = new pieces("", '#bf6300', '#803500', '#e68a00', tipoAlma[4],
 
 // Melissa
 
-const melissa = new pieces("", '#660aceff', '#4a0796ff', '#9b42e4ff', tipoAlma[3],
+const melissa = new pieces("", '#5009ae', '#2a0766', '#0e0118', tipoAlma[3],
 	"melissa", "Melissa", "Título", "Detective talentosa",
 	"Descripción corta",
 	"Descripción",
@@ -91,7 +91,7 @@ const melissa = new pieces("", '#660aceff', '#4a0796ff', '#9b42e4ff', tipoAlma[3
 	"Deja de perder el tiempo.",
 	"Es hora de trabajar",
 	"Atentos a su entorno.",
-	"idle5"
+	"…"
 	],
 	["El fin justifica los medio.",
 	 "…",
@@ -123,20 +123,20 @@ const melissa = new pieces("", '#660aceff', '#4a0796ff', '#9b42e4ff', tipoAlma[3
 
 // Brayan
 
-const brayanSab = new pieces("", '#256637', '#0d401b', '#2f9151', tipoAlma[0],
+const brayanSab = new pieces("", '#256637', '#0d401b', '#011408', tipoAlma[0],
 	"brayanSab", "Brayan", "Título", "Especialista en sabotaje",
 	"Descripción",
 	"Descripción Larga",
 	["¡Prepárate para comer polvo!",
 	 "Un café y una taza siempre a la mano. *Risas*",
-	 "Idle3",
+	 "El detective va a caer.",
 	 "Idle4",
 	 "Idle5"
 	],
 	["¡Para la próxima no te metas conmigo!",
 	 "Solo era una bromita.",
-	 "Acabar3",
-	 "Acabar4",
+	 "¡Y es solo el inicio!",
+	 "Uno menos antes del jefe",
 	 "Acabar5"
 	],
 	["Ah, ok.",
@@ -199,15 +199,15 @@ const brayanRedim = new pieces("", '#42a667', '#14783b', '#44c976', tipoAlma[0],
 	basicTwo()
 );
 
-const brayan = new pieces("", '#2eab47', '#226f2f', '#61ed82 ', tipoAlma[3],
+const brayan = new pieces("", '#2eab47', '#226f2f', '#80ff9d ', tipoAlma[3],
 	"brayan", "Brayan", "Título", "Bromista experto en espionaje",
 	"Descripción",
 	"Descripción",
 	["Que buen momento para ser un espía.",
-	 "Idle2",
-	 "Idle3",
-	 "Idle4",
-	 "Idle5"
+	 "¿Quieres ver un disfraz de dinosaurio que me robé para una misión? No le digas al teniente, ¿sí?",
+	 "Algún día seré una ✨princesa✨",
+	 "La parte de hacerse pasar por gente cualquiera en misiones es distinto",
+	 "Podría ser un marinero, un ladrón, un muerto, un árbol… debería ser un tren."
 	],
 	["Por el bien común.",
 	 "¿Estás vivo?",
@@ -235,6 +235,158 @@ const brayan = new pieces("", '#2eab47', '#226f2f', '#61ed82 ', tipoAlma[3],
 	],
 	[],
 	basicTwo()
+);
+
+const akiko = new pieces("", "#efd000", "#c48f00", "#feffcb", tipoAlma[6],
+	"akiko", "Akiko", "El sol brillante", "Sanadora de la hoja dorada",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[eternityMov, emergencyHealMov],
+	basicOne()
+);
+
+const darya = new pieces("", "#f48410", "#c05200", "#632001", tipoAlma[0],
+	"darya", "Darya", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const eivor = new pieces("", "#00105f", "#04003f", "#fff000", tipoAlma[3],
+	"eivor", "Eivor", "informante del azar", "Informante de la suerte",
+	"Descripción corta",
+	"Descripción larga",
+	["Que la suerte los acompañe… porque la tomé toda para mí.",
+	 "Tengo un plan maestro para ganar",
+	 "*Risas*",
+	 "Idle4",
+	 "Idle5"
+	],
+	["La suerte no estuvo a tu favor",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[diceChangeMov, absoluteEndMov],
+	basicOne()
+);
+
+const maryam = new pieces("", "#1c9218", "#056612", "#76f366", tipoAlma[0],
+	"maryam", "Maryam", "titulo", "Liberadora de la rosa",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
 );
 
 new pieces("", "#", "#", "#", tipoAlma[0],
@@ -275,45 +427,6 @@ new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const akiko = new pieces("", "#efe000", "#c49f00", "#fff777", tipoAlma[6],
-	"akiko", "Akiko", "El sol brillante", "Sanadora de la hoja dorada",
-	"Descripción corta",
-	"Descripción larga",
-	["Idle1",
-	 "Idle2",
-	 "Idle3",
-	 "Idle4",
-	 "Idle5"
-	],
-	["Acabar1",
-	 "Acabar2",
-	 "Acabar3",
-	 "Acabar4",
-	 "Acabar5"
-	],
-	["AmigoTieso1",
-	 "AmigoTieso2",
-	 "AmigoTieso3",
-	 "AmigoTieso4",
-	 "AmigoTieso5"
-	],
-	["Tieso1",
-	 "Tieso2",
-	 "Tieso3",
-	 "Tieso4",
-	 "Tieso5"
-	],
-	["Revive1",
-	 "Revive2",
-	 "Revive3",
-	 "Revive4",
-	 "Revive5"
-	],
-	[],
-	basicOne()
-);
-
-
 // Exportar
-export {adam, akiko, melissa, brayan, brayanSab, brayanRedim, adamEmo}
+export {adam, akiko, darya, eivor, maryam, melissa, brayan, brayanSab, brayanRedim, adamEmo}
 // '#481880', '#24085c', '#772bb5'

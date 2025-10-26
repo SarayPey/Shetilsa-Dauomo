@@ -40,6 +40,6 @@ nav a #active {
 	'wght' 50,
 	'GRAD' 0,
 	'opsz' 48;
-	filter: drop-shadow(0 0 4px #ffffff);
+	filter: drop-shadow(0 0 4px #ffe600);
 	transform: scale(1.2);
 }

@@ -1,4 +1,4 @@
-import { adam, akiko, brayan, melissa, brayanSab, brayanRedim, adamEmo } from "./game/dataP.js";
+import { adam, akiko, darya, eivor, brayan, maryam, melissa, brayanSab, brayanRedim, adamEmo } from "./game/dataP.js";
 function idle(pieceObj){
     console.log("Llamando a " + pieceObj.nombre + " (" + pieceObj.piezanombre + ").")
     if (!pieceObj || !pieceObj.idleDialogo) return;
@@ -10,13 +10,43 @@ function idle(pieceObj){
 };
 
 window.onload = () => {
-  window.adam = adam;
-  window.adamEmo = adamEmo;
+  window.idle = idle;
+
   window.melissa = melissa;
   window.brayanSab = brayanSab;
-  const character = [adam,  melissa, akiko, brayan, brayanSab, brayanRedim, adamEmo];
+  window.akiko = akiko;
+  window.darya = darya;
+  window.diana = melissa;
+  window.daniel = brayanSab;
+  window.eivor = eivor;
+  window.adam = adam;
+  window.adamEmo = adamEmo;
+  window.brayan = brayan;
+  window.maryam = maryam;
+  // window.jacob = jacob;
+  // window.joseph = joseph;
+  // window.laura = laura;
+  // window.cara = cara;
+  // window.eliza = eliza;
+  // window.james = james;
+  // window.andres = andres;
+  // window.alejandro = alejandro;
+  // window.michael = michael;
+  // window.connor = connor;
+  // window.jadyn = jadyn;
+  // window.orfeo = orfeo;
+  // window.eleanor = eleanor;
+  // window.serafin = serafin;
+  // window.olexei = olexei;
+  // window.aiyana = aiyana;
+  // window.brisa = brisa;
+  // window.evelyn = evelyn;
+  // window.luis = luis;
+  // window.alexa = alexa;
+  // window.erin = erin;
 
-  window.idle = idle;
+  const character = [adam, darya, eivor, maryam, melissa, akiko, brayan, brayanSab, brayanRedim, adamEmo];
+
 
   // Jugador 1
   const p1PiezaUno = document.querySelector('.pieza.p1.uno');
@@ -63,11 +93,12 @@ window.onload = () => {
  for (let x of character){
     console.log("Iniciando iteración");
     console.log(x.varName + " (" + x.nombre + " - " + x.piezanombre + ").");
-    let color = document.getElementById(`${x.varName}`)
-    if (color) {
-      color.style.background = `radial-gradient(${x.col1}, ${x.col1}, ${x.col2}, ${x.col1}, ${x.col1}, ${x.col3})`;
+    let perObtenido = document.getElementById(`${x.varName}`)
+    if (perObtenido) {
+      perObtenido.style.background = `radial-gradient(${x.col1}, ${x.col1}, ${x.col2}, ${x.col1}, ${x.col1}, ${x.col1})`;
       console.log((x.col1), (x.col2), (x.col3))
       document.getElementById(`${x.varName}`).textContent = x.tipAlma;
+      document.getElementById(`${x.varName}`).style.color = `${x.col3}`;
       console.log("Estilo aplicado: " + x.nombre + " (" + x.piezanombre + ").");
     } else{
       console.log("Ficha no existente en el tablero")
@@ -81,10 +112,25 @@ window.onload = () => {
   if (p1PiezaDos) {
     p1PiezaDos.onclick = () => idle(adamEmo);
   };
+  if (p1PiezaTres) {
+    p1PiezaTres.onclick = () => idle(maryam);
+  };
+  if (p1PiezaCuatro) {
+    p1PiezaCuatro.onclick = () => idle(brayan);
+  };
+  if (p1PiezaNueve) {
+    p1PiezaNueve.onclick = () => idle(eivor);
+  };
   if (p2PiezaTres) {
     p2PiezaTres.onclick = () => idle(melissa);
   };
   if (p2PiezaCuatro) {
     p2PiezaCuatro.onclick = () => idle(brayanSab);
+  };
+  if (p2PiezaNueve) {
+    p2PiezaNueve.onclick = () => idle(akiko);
+  };
+  if (p2PiezaDiez) {
+    p2PiezaDiez.onclick = () => idle(darya);
   };
 };
