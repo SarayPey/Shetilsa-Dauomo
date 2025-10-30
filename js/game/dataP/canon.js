@@ -1,7 +1,7 @@
 import { pieces, tipoAlma } from "../gamepieces.js";
 import { pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn,
 	diceChange, absoluteEnd,
-	eternity, emergencyHeal } from "..dataH.js";
+	eternity, emergencyHeal } from "../dataH.js";
 import { basicOne, basicTwo, basicThree} from "../movs.js";
 
 const adam = new pieces("", '#fc9803', '#a15708', '#fdfa95', tipoAlma[4],
@@ -270,8 +270,8 @@ const maryam = new pieces("", "#1c9218", "#056612", "#76f366", tipoAlma[0],
 	basicOne()
 );
 
-const jacob = new pieces("", "#700000", "#400000", "#ff0000", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const jacob = new pieces("", "#700000", "#400000", "#ff0000", tipoAlma[3],
+	"jacob", "Jacob", "titulo", "El mago de dos mundos",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -347,5 +347,5 @@ new pieces("", "#", "#", "#", tipoAlma[0],
 );
 
 // Exportar
-export {adam, akiko, darya, eivor, maryam, melissa, brayan}
+export {adam, akiko, brayan, darya, eivor, jacob, maryam, melissa}
 // '#481880', '#24085c', '#772bb5'
