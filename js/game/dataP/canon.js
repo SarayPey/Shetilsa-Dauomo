@@ -1,9 +1,9 @@
-import { pieces, tipoAlma } from "./gamepieces.js";
+import { pieces, tipoAlma } from "../gamepieces.js";
 import { pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn,
-	antiLookMask, dutySense, leaderSabotage } from "./dataH.js";
-import { basicOne, basicTwo, basicThree, absoluteEndMov, diceChangeMov, eternityMov, emergencyHealMov } from "./movs.js";
+	diceChange, absoluteEnd,
+	eternity, emergencyHeal } from "..dataH.js";
+import { basicOne, basicTwo, basicThree} from "../movs.js";
 
-// Adam
 const adam = new pieces("", '#fc9803', '#a15708', '#fdfa95', tipoAlma[4],
 	"adam", "Adam", "Aquel que desafió su destino", "Renacido de las cenízas",
 	"Descripción corta",
@@ -42,47 +42,6 @@ const adam = new pieces("", '#fc9803', '#a15708', '#fdfa95', tipoAlma[4],
 	basicThree()
 );
 
-const adamEmo = new pieces("", '#bf6300', '#803500', '#1f1210', tipoAlma[4],
-	"adamEmo", "Adam", "Aquel que desafió su destino", "Optimista impostor",
-	"Descripción corta",
-	"Descripción",
-	["Adam Carter listo para el deber.",
-	 "¿Crees que pueda?",
-	 "Confío en que puedes manejarlo.",
-	 "Estoy bien.",
-	 "No te preocupes, estoy bien."
-	],
-	["Lo siento…",
-	 "No debí… no debí…",
-	 "Acabar3",
-	 "Acabar4",
-	 "Acabar5"
-	],
-	["No…",
-	"¡Te puedo ayudar! ¡Puedo salvarte! No te vayas…",
-	 "Perdóname…",
-	 "¿Por qué no fui yo…?",
-	 "Desierta… despierta… vamos… te necesitamos…"
-	],
-	["Sigan sin mí…",
-	"Fallé… ¿cierto?",
-	"Te dije que… era… débil…",
-	"Perdón…",
-	 "Por el bien… mayor…",
-	 "No era necesario… después de… todo…"
-	],
-	["¿Qué…?",
-	"¿Cómo… volví?",
-	 "No lo merecía…",
-	 "Revive4",
-	 "Revive5"
-	],
-	[antiLookMask, dutySense],
-	basicOne()
-);
-
-// Melissa
-
 const melissa = new pieces("", '#5009ae', '#2a0766', '#0e0118', tipoAlma[3],
 	"melissa", "Melissa", "Título", "Detective talentosa",
 	"Descripción corta",
@@ -119,84 +78,6 @@ const melissa = new pieces("", '#5009ae', '#2a0766', '#0e0118', tipoAlma[3],
 	],
 	[],
 	basicOne()
-);
-
-// Brayan
-
-const brayanSab = new pieces("", '#256637', '#0d401b', '#011408', tipoAlma[0],
-	"brayanSab", "Brayan", "Título", "Especialista en sabotaje",
-	"Descripción",
-	"Descripción Larga",
-	["¡Prepárate para comer polvo!",
-	 "Un café y una taza siempre a la mano. *Risas*",
-	 "El detective va a caer.",
-	 "Idle4",
-	 "Idle5"
-	],
-	["¡Para la próxima no te metas conmigo!",
-	 "Solo era una bromita.",
-	 "¡Y es solo el inicio!",
-	 "Uno menos antes del jefe",
-	 "Acabar5"
-	],
-	["Ah, ok.",
-	 "¿Terminaste tu drama?",
-	 "Va a despertar en un rato.",
-	 "AmigoTieso4",
-	 "AmigoTieso5"
-	],
-	["Ok…",
-	 "Tieso2",
-	 "Tieso3",
-	 "Tieso4",
-	 "Tieso5"
-	],
-	["No dejan descansar…",
-	 "Revive2",
-	 "Revive3",
-	 "Revive4",
-	 "Revive5"
-	],
-	[leaderSabotage],
-	basicTwo()
-);
-
-const brayanRedim = new pieces("", '#42a667', '#14783b', '#44c976', tipoAlma[0],
-	"brayanRedim", "Brayan", "Título", "Redención del saboteador",
-	"Descripción",
-	"Descripción",
-	["Es hora de arreglar mis errores",
-	 "Idle2",
-	 "Idle3",
-	 "Idle4",
-	 "Idle5"
-	],
-	["Por el bien común",
-	 "Acabar2",
-	 "Acabar3",
-	 "Acabar4",
-	 "Acabar5"
-	],
-	["AmigoTieso1",
-	 "AmigoTieso2",
-	 "AmigoTieso3",
-	 "AmigoTieso4",
-	 "AmigoTieso5"
-	],
-	["Tieso1",
-	 "Tieso2",
-	 "Tieso3",
-	 "Tieso4",
-	 "Tieso5"
-	],
-	["Revive1",
-	 "Revive2",
-	 "Revive3",
-	 "Revive4",
-	 "Revive5"
-	],
-	[],
-	basicTwo()
 );
 
 const brayan = new pieces("", '#2eab47', '#226f2f', '#80ff9d ', tipoAlma[3],
@@ -241,11 +122,11 @@ const akiko = new pieces("", "#efd000", "#c48f00", "#feffcb", tipoAlma[6],
 	"akiko", "Akiko", "El sol brillante", "Sanadora de la hoja dorada",
 	"Descripción corta",
 	"Descripción larga",
-	["Idle1",
-	 "Idle2",
-	 "Idle3",
-	 "Idle4",
-	 "Idle5"
+	["¿Hay EnergyCandy?",
+	 "¡Hola!",
+	 "*Comiendo dulces*",
+	 "*Cuidando una planta*",
+	 "¿Has visto a Lía?"
 	],
 	["Acabar1",
 	 "Acabar2",
@@ -271,7 +152,7 @@ const akiko = new pieces("", "#efd000", "#c48f00", "#feffcb", tipoAlma[6],
 	 "Revive4",
 	 "Revive5"
 	],
-	[eternityMov, emergencyHealMov],
+	[eternity, emergencyHeal],
 	basicOne()
 );
 
@@ -347,12 +228,50 @@ const eivor = new pieces("", "#00105f", "#04003f", "#fff000", tipoAlma[3],
 	 "Revive4",
 	 "Revive5"
 	],
-	[diceChangeMov, absoluteEndMov],
+	[diceChange, absoluteEnd],
 	basicOne()
 );
 
 const maryam = new pieces("", "#1c9218", "#056612", "#76f366", tipoAlma[0],
 	"maryam", "Maryam", "titulo", "Liberadora de la rosa",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const jacob = new pieces("", "#700000", "#400000", "#ff0000", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -428,5 +347,5 @@ new pieces("", "#", "#", "#", tipoAlma[0],
 );
 
 // Exportar
-export {adam, akiko, darya, eivor, maryam, melissa, brayan, brayanSab, brayanRedim, adamEmo}
+export {adam, akiko, darya, eivor, maryam, melissa, brayan}
 // '#481880', '#24085c', '#772bb5'

@@ -53,7 +53,8 @@ const detectiveInstinct = new habilidades("Instinto detectivesco",
 	al aliado el efecto 'Detective de corazón'",
 	["¡Cuidado!",
 		"Algo no anda bien…",
-		"¡Cúbrete!"],
+		"¡Cúbrete!"
+	],
 	detectiveInstinctMov()
 )
 const admadisDawn = new habilidades("Alba del admadis",
@@ -65,7 +66,8 @@ const admadisDawn = new habilidades("Alba del admadis",
 	y disminuye en uno el de sus enemigos.",
 	["En la película, hubo un Adam que no pudo proteger lo que amaba, pero yo lo haré.",
 		"Les recuerdo que 'Adam' significa 'aquel admadis que enseña a volar'",
-		"¡Juntos por nuestros amigos caídos!"],
+		"¡Juntos por nuestros amigos caídos!"
+	],
 		admadisDawnMov()
 )
 
@@ -85,7 +87,8 @@ const antiLookMask = new habilidades("Máscara anti-miradas",
 	es atacado y tiene 'Máscara anti-miradas', Adam recibe una carga \
 	emocional para 'sentido del deber'",
 	["¡Yo me encargo!",
-		"¿Necesitas escudo?"],
+		"¿Necesitas escudo?"
+	],
 	antiLookMaskMov()
 );
 
@@ -118,7 +121,8 @@ const dutySense = new habilidades("Sentido del deber",
 		"¿No te dije que volverías…?",
 		"Ellos te necesitan más que a mí…",
 		"Por el bien mayor…",
-		"Hasta siempre…"],
+		"Hasta siempre…"
+	],
 	dutySenseMov()
 )
 
@@ -152,18 +156,22 @@ const eternity = new habilidades("Eternidad",
 	tipoHabilidades[3], nivPoder[0],
 	"Si queda una ficha aliada y Akiko fue eliminada, esta habilidad se activa, haciendo\
 	que esta ficha y cualquier ficha aliada Akiko regrese al tablero",
-	["¡He regresado!", "Disculpen la demora, he vuelto", "¡Hola!"],
+	["¡He regresado!",
+		"Disculpen la demora, he vuelto",
+		"¡Hola!"
+	],
 	eternityMov()
 )
 
 const emergencyHeal = new habilidades("Curación de emergencia",
 	tipoHabilidades[3], nivPoder[0],
 	"Si la ficha restante es eliminada y Akiko está fuera del tablero, esta activa su\
-	curación especial, la cual revive a ese aliado y algún aliado con habilidades de sinergia\
+	curación especial, la cual revive a ese aliado y un aliado al azar con habilidades de sinergia\
 	o curativas a elección.",
 	["¡Es hora de despertar!",
 		"¿Alguien dijo curación?",
-		"Curación de emergencia"],
+		"Curación de emergencia"
+	],
 	emergencyHealMov()
 )
 
@@ -175,7 +183,8 @@ const diceChange = new habilidades("Cambio de dado",
 	favor de su equipo, este efecto dura mientras esta pieza esté en juego.",
 	["Propongo otro juego.",
 		"No me gusta ese dado, este es mejor",
-		"¿Qué opines de esto?"],
+		"¿Qué opines de esto?"
+	],
 	diceChangeMov()
 )
 
@@ -187,7 +196,8 @@ const absoluteEnd = new habilidades("Final absoluto",
 	ser empujado a una esquina del tablero.",
 	["Atrévete ahora.",
 		"Bueno, bueno, ¿soy solo yo?",
-		"¡Final absoluto!"],
+		"¡Final absoluto!"
+	],
 	absoluteEndMov()
 )
 

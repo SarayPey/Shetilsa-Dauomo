@@ -1,4 +1,5 @@
-import { adam, akiko, darya, eivor, brayan, maryam, melissa, brayanSab, brayanRedim, adamEmo } from "./game/dataP.js";
+import { adam, akiko, darya, eivor, brayan, maryam, melissa, jacob } from "./game/dataP/canon";
+import { brayanSab, brayanRedim, adamEmo } from "./game/dataP/extra.js"
 function idle(pieceObj){
     console.log("Llamando a " + pieceObj.nombre + " (" + pieceObj.piezanombre + ").")
     if (!pieceObj || !pieceObj.idleDialogo) return;
@@ -12,38 +13,38 @@ function idle(pieceObj){
 window.onload = () => {
   window.idle = idle;
 
-  window.melissa = melissa;
+  window.melissa   = melissa;
   window.brayanSab = brayanSab;
-  window.akiko = akiko;
-  window.darya = darya;
-  window.diana = melissa;
-  window.daniel = brayanSab;
-  window.eivor = eivor;
-  window.adam = adam;
-  window.adamEmo = adamEmo;
-  window.brayan = brayan;
-  window.maryam = maryam;
-  // window.jacob = jacob;
-  // window.joseph = joseph;
-  // window.laura = laura;
-  // window.cara = cara;
-  // window.eliza = eliza;
-  // window.james = james;
-  // window.andres = andres;
+  window.akiko     = akiko;
+  window.darya     = darya;
+  window.diana     = melissa;
+  window.daniel    = brayanSab;
+  window.eivor     = eivor;
+  window.adam      = adam;
+  window.adamEmo   = adamEmo;
+  window.brayan    = brayan;
+  window.maryam    = maryam;
+  // window.jacob     = jacob;
+  // window.joseph    = joseph;
+  // window.laura     = laura;
+  // window.cara      = cara;
+  // window.eliza     = eliza;
+  // window.james     = james;
+  // window.andres    = andres;
   // window.alejandro = alejandro;
-  // window.michael = michael;
-  // window.connor = connor;
-  // window.jadyn = jadyn;
-  // window.orfeo = orfeo;
-  // window.eleanor = eleanor;
-  // window.serafin = serafin;
-  // window.olexei = olexei;
-  // window.aiyana = aiyana;
-  // window.brisa = brisa;
-  // window.evelyn = evelyn;
-  // window.luis = luis;
-  // window.alexa = alexa;
-  // window.erin = erin;
+  // window.michael   = michael;
+  // window.connor    = connor;
+  // window.jadyn     = jadyn;
+  // window.orfeo     = orfeo;
+  // window.eleanor   = eleanor;
+  // window.serafin   = serafin;
+  // window.olexei    = olexei;
+  // window.aiyana    = aiyana;
+  // window.brisa     = brisa;
+  // window.evelyn    = evelyn;
+  // window.luis      = luis;
+  // window.alexa     = alexa;
+  // window.erin      = erin;
 
   const character = [adam, darya, eivor, maryam, melissa, akiko, brayan, brayanSab, brayanRedim, adamEmo];
 
@@ -100,37 +101,106 @@ window.onload = () => {
       document.getElementById(`${x.varName}`).textContent = x.tipAlma;
       document.getElementById(`${x.varName}`).style.color = `${x.col3}`;
       console.log("Estilo aplicado: " + x.nombre + " (" + x.piezanombre + ").");
-    } else{
+    } else {
       console.log("Ficha no existente en el tablero")
       continue;
     };
  };
-
   if (p1PiezaUno) {
-    p1PiezaUno.onclick = () => idle(adam);
+      p1PiezaUno.onclick = () => idle(adam);
   };
   if (p1PiezaDos) {
-    p1PiezaDos.onclick = () => idle(adamEmo);
+      p1PiezaDos.onclick = () => idle(adamEmo);
   };
   if (p1PiezaTres) {
-    p1PiezaTres.onclick = () => idle(maryam);
+      p1PiezaTres.onclick = () => idle(maryam);
   };
   if (p1PiezaCuatro) {
-    p1PiezaCuatro.onclick = () => idle(brayan);
+      p1PiezaCuatro.onclick = () => idle(brayan);
+  };
+  if (p1PiezaCinco) {
+      p1PiezaCinco.onclick = () => idle(evelyn);
+  };
+  if (p1PiezaSeis) {
+      p1PiezaSeis.onclick = () => idle(luis);
+  };
+  if (p1PiezaSiete) {
+      p1PiezaSiete.onclick = () => idle(erin);
+  };
+  if (p1PiezaOcho) {
+      p1PiezaOcho.onclick = () => idle(alexa);
   };
   if (p1PiezaNueve) {
-    p1PiezaNueve.onclick = () => idle(eivor);
+      p1PiezaNueve.onclick = () => idle(eivor);
+  };
+  if (p1PiezaDiez) {
+      p1PiezaDiez.onclick = () => idle(jadyn);
+  };
+  if (p1PiezaOnce) {
+      p1PiezaOnce.onclick = () => idle(orfeo);
+  };
+  if (p1PiezaDoce) {
+      p1PiezaDoce.onclick = () => idle(eleanor);
+  };
+  if (p1PiezaTrece) {
+      p1PiezaTrece.onclick = () => idle(serafin);
+  };
+  if (p1PiezaCatorce) {
+      p1PiezaCatorce.onclick = () => idle(olexei);
+  };
+  if (p1PiezaQuince) {
+      p1PiezaQuince.onclick = () => idle(aiyana);
+  };
+  if (p1PiezaDieciseis) {
+      p1PiezaDieciseis.onclick = () => idle(brisa);
+  };
+
+  if (p2PiezaUno) {
+      p2PiezaUno.onclick = () => idle(jacob);
+  };
+  if (p2PiezaDos) {
+      p2PiezaDos.onclick = () => idle(joseph);
   };
   if (p2PiezaTres) {
-    p2PiezaTres.onclick = () => idle(melissa);
+      p2PiezaTres.onclick = () => idle(melissa);
   };
   if (p2PiezaCuatro) {
-    p2PiezaCuatro.onclick = () => idle(brayanSab);
+      p2PiezaCuatro.onclick = () => idle(brayanSab);
+  };
+  if (p2PiezaCinco) {
+      p2PiezaCinco.onclick = () => idle(laura);
+  };
+  if (p2PiezaSeis) {
+      p2PiezaSeis.onclick = () => idle(cara);
+  };
+  if (p2PiezaSiete) {
+      p2PiezaSiete.onclick = () => idle(eliza);
+  };
+  if (p2PiezaOcho) {
+      p2PiezaOcho.onclick = () => idle(james);
   };
   if (p2PiezaNueve) {
-    p2PiezaNueve.onclick = () => idle(akiko);
+      p2PiezaNueve.onclick = () => idle(akiko);
   };
   if (p2PiezaDiez) {
-    p2PiezaDiez.onclick = () => idle(darya);
+      p2PiezaDiez.onclick = () => idle(darya);
+  };
+  if (p2PiezaOnce) {
+      p2PiezaOnce.onclick = () => idle(andres);
+  };
+  if (p2PiezaDoce) {
+      p2PiezaDoce.onclick = () => idle(alejandro);
+  };
+  if (p2PiezaTrece) {
+      p2PiezaTrece.onclick = () => idle(michael);
+  };
+  if (p2PiezaCatorce) {
+      p2PiezaCatorce.onclick = () => idle(connor);
+  };
+  if (p2PiezaQuince) {
+      p2PiezaQuince.onclick = () => idle(diana);
+  };
+  if (p2PiezaDieciseis) {
+      p2PiezaDieciseis.onclick = () => idle(daniel);
   };
 };
