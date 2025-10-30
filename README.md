@@ -12,7 +12,7 @@ Damas + ajedrez + habilidades de juegos RPG + lore(fantasía * traumas) + creado
 	- De hecho, tienen diálogos de habilidades como si fuera un juego estilo *Genshin Impact*, *SkullGirls* o [inserte juego].
 	- Adicionalmente tienen diálogos de idle (o calma antes del trauma como le digo yo) ver morir a aliados, acabar a un aliado, morir o revivir. ¡Incluso se está viendo la posibilidad de agregar diálogos entre personajes
 - Movimientos variados, ¿vertical? ¿horizontal? ¿diagonal? ¡De todo hay!
-- Desde las clásicas habilidades de protección y extra daño hasta esas y sufridoras molestas habilidades que cambian toda la mecánica.
+- Desde las clásicas habilidades de protección y extra daño hasta esas sufridoras y molestas habilidades que cambian toda la mecánica.
 	- En serio, hasta hay habilidades para revivir piezas muertas.
 - Solo hecho con HTML 5, CSS y JavaScript.
 
