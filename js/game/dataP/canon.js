@@ -4,7 +4,7 @@ import { pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn,
 	eternity, emergencyHeal } from "../dataH.js";
 import { basicOne, basicTwo, basicThree} from "../movs.js";
 
-const adam = new pieces("", '#fc9803', '#a15708', '#fdfa95', tipoAlma[4],
+const adam = new pieces("", '#fc9803', '#ce6600', '#fdfa95', tipoAlma[4],
 	"adam", "Adam", "Aquel que desafió su destino", "Renacido de las cenízas",
 	"Descripción corta",
 	"Descripción",
