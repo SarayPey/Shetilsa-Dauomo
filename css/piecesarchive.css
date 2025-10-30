@@ -9,15 +9,17 @@
 }
 
 body {
-	background-image: linear-gradient(#070400, #2b1901);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: linear-gradient(#0c0301, #2e1301, #7a3c08);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+	padding: 10px;
 }
 
 nav a {
 	text-decoration: none;
 	color: #ffffff;
+	width: max-content;
 }
 
 nav a #active {
@@ -29,7 +31,7 @@ nav a #active {
 }
 
 .material-symbols-outlined {
-	color: #ffffff;
+	color: #fffef1;
 	position: relative;
 	font-family: 'Material Symbols Outlined';
 	font-variation-settings:

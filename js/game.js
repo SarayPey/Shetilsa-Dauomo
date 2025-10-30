@@ -91,13 +91,12 @@ window.onload = () => {
   const p2Array = [p2PiezaUno, p2PiezaDos, p2PiezaTres, p2PiezaTres, p2PiezaCuatro, p2PiezaCinco, p2PiezaSeis, p2PiezaSiete, p2PiezaOcho,
     p2PiezaNueve, p2PiezaDiez, p2PiezaOnce, p2PiezaDoce, p2PiezaTrece, p2PiezaCatorce, p2PiezaQuince, p2PiezaDieciseis];
 
+console.log("Iniciando iteración");
  for (let x of character){
-    console.log("Iniciando iteración");
     console.log(x.varName + " (" + x.nombre + " - " + x.piezanombre + ").");
     let perObtenido = document.getElementById(`${x.varName}`)
     if (perObtenido) {
       perObtenido.style.background = `radial-gradient(${x.col1}, ${x.col1}, ${x.col2}, ${x.col1}, ${x.col1}, ${x.col1})`;
-      console.log((x.col1), (x.col2), (x.col3))
       document.getElementById(`${x.varName}`).textContent = x.tipAlma;
       document.getElementById(`${x.varName}`).style.color = `${x.col3}`;
       console.log("Estilo aplicado: " + x.nombre + " (" + x.piezanombre + ").");

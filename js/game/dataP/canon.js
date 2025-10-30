@@ -270,7 +270,7 @@ const maryam = new pieces("", "#1c9218", "#056612", "#76f366", tipoAlma[0],
 	basicOne()
 );
 
-const jacob = new pieces("", "#700000", "#400000", "#ff0000", tipoAlma[3],
+const jacob = new pieces("", "#700000", "#400000", "#ff2222", tipoAlma[3],
 	"jacob", "Jacob", "titulo", "El mago de dos mundos",
 	"Descripción corta",
 	"Descripción larga",

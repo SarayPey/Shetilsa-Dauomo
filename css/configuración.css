@@ -8,10 +8,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+	padding: 10px;
 }
 
 * {
   transition: all .2s;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+	width: max-content;
 }
 
 nav a #active {
@@ -23,7 +30,7 @@ nav a #active {
 }
 
 .material-symbols-outlined {
-	color: #ffffff;
+	color: #fffef1;
 	position: relative;
 	font-family: 'Material Symbols Outlined';
 	font-variation-settings:
