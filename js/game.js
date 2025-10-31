@@ -10,6 +10,17 @@ function idle(pieceObj){
     console.log(pieceObj.nombre + " (" + pieceObj.piezanombre + ") ha respondido")
 };
 
+function dead(pieceObj){
+    pieceObj.style.animation = "none";
+    console.log("¡Han matado a " + pieceObj.nombre + " (" + pieceObj.piezanombre + ")!")
+    const dialogos = pieceObj.sEndDialog;
+    const idleD = dialogos[Math.floor(Math.random() * dialogos.length)];
+    console.log(idleD)
+    pieceObj.style.animation = "die 0,25s linear"
+    document.getElementById("dialogo").textContent = pieceObj.nombre + ": " + idleD;
+    console.log(pieceObj.nombre + " (" + pieceObj.piezanombre + ") ha respondido")
+}
+
 window.onload = () => {
   window.idle = idle;
 

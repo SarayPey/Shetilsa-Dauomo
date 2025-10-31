@@ -16,18 +16,18 @@ const adam = new pieces("", '#fc9803', '#ce6600', '#fdfa95', tipoAlma[4],
 	],
 	["Lo siento…",
 	"No quería hacerlo, pero te metiste con quienes amo.",
-	 "Acabar3",
+	 "Me acabo de acordar que casi me pasa algo así una vez.",
 	 "Acabar4",
 	 "Acabar5"
 	],
 	["No…",
-	 "AmigoTieso2",
+	 "No lo merecía… ¡No lo merecía!",
 	 "AmigoTieso3",
 	 "AmigoTieso4",
 	 "AmigoTieso5"
 	],
 	["¡Sigan sin… mí…!",
-	 "Esto es vergonzoso, ¿sabes…?",
+	 "Esto es… vergonzoso, ¿sabes…?",
 	 "Alexa…",
 	 "No esta tan bien como pensaba…",
 	 "Mamá… papá…"
@@ -36,7 +36,7 @@ const adam = new pieces("", '#fc9803', '#ce6600', '#fdfa95', tipoAlma[4],
 	 "¿Osuke…? ¿Fuiste tú?",
 	 "¡Gracias!",
 	 "Tengo otra oportinidad para arreglar esto",
-	 "Revive5"
+	 "He vuelto porque hice una promesa: cuidar a quienes amo."
 	],
 	[pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn],
 	basicThree()
@@ -52,9 +52,9 @@ const melissa = new pieces("", '#5009ae', '#2a0766', '#0e0118', tipoAlma[3],
 	"Atentos a su entorno.",
 	"…"
 	],
-	["El fin justifica los medio.",
+	["El fin justifica los medios.",
 	 "…",
-	 "Acabar3",
+	 "Eres peor que una araña",
 	 "Acabar4",
 	 "Acabar5"
 	],
@@ -65,13 +65,13 @@ const melissa = new pieces("", '#5009ae', '#2a0766', '#0e0118', tipoAlma[3],
 	 "AmigoTieso5"
 	],
 	["Ya que…",
-	 "Tieso2",
-	 "Tieso3",
-	 "Tieso4",
-	 "Tieso5"
+	 "Laura…",
+	 "Adam…",
+	 "…",
+	 "Supongo que…"
 	],
 	["¿Estoy de vuelta? Bueno, ya qué.",
-	 "Revive2",
+	 "Gracias a los primordiales",
 	 "Revive3",
 	 "Revive4",
 	 "Revive5"
