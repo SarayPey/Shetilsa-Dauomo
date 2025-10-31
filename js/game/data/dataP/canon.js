@@ -5,14 +5,14 @@ import { pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn,
 import { basicOne, basicTwo, basicThree} from "../movs.js";
 
 const adam = new pieces("", '#fc9803', '#ce6600', '#fdfa95', tipoAlma[4],
-	"adam", "Adam", "Aquel que desafió su destino", "Renacido de las cenízas",
+	"adam", "Adam", "Aquel que desafió su destino", "Renacido de las cenizas",
 	"Descripción corta",
 	"Descripción",
 	["Adam Carter listo para el deber.",
 	 "Juntos somos más fuerte.",
 	 "Traje algo de comida, espero que les guste.",
 	 "Algo me dice que será un día muy pesado.",
-	 "Si necesitas ayuda, puedes confíar en mí."
+	 "Si necesitas ayuda, puedes confiar en mí."
 	],
 	["Lo siento…",
 	"No quería hacerlo, pero te metiste con quienes amo.",
@@ -35,7 +35,7 @@ const adam = new pieces("", '#fc9803', '#ce6600', '#fdfa95', tipoAlma[4],
 	["¿Qué…?",
 	 "¿Osuke…? ¿Fuiste tú?",
 	 "¡Gracias!",
-	 "Tengo otra oportinidad para arreglar esto",
+	 "Tengo otra oportunidad para arreglar esto",
 	 "He vuelto porque hice una promesa: cuidar a quienes amo."
 	],
 	[pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn],
