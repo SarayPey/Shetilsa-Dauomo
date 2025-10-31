@@ -1,5 +1,5 @@
-import { pieces, tipoAlma } from "../gamepieces.js";
-import{	antiLookMask, dutySense, leaderSabotage } from "../dataH.js";
+import { pieces, tipoAlma } from "../../gamepieces.js";
+import{	antiLookMask, dutySense, leaderSabotage } from "../dataH/extraH.js";
 import { basicOne, basicTwo, basicThree} from "../movs.js";
 const adamEmo = new pieces("", '#bf6300', '#803500', '#1f1210', tipoAlma[4],
 	"adamEmo", "Adam", "Aquel que desafió su destino", "Optimista impostor",

@@ -1,7 +1,7 @@
-import { pieces, tipoAlma } from "../gamepieces.js";
+import { pieces, tipoAlma } from "../../gamepieces.js";
 import { pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn,
 	diceChange, absoluteEnd,
-	eternity, emergencyHeal } from "../dataH.js";
+	eternity, emergencyHeal } from "../dataH/canonH.js";
 import { basicOne, basicTwo, basicThree} from "../movs.js";
 
 const adam = new pieces("", '#fc9803', '#ce6600', '#fdfa95', tipoAlma[4],
