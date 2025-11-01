@@ -4,7 +4,7 @@ import { pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn,
 	eternity, emergencyHeal } from "../dataH/canonH.js";
 import { basicOne, basicTwo, basicThree} from "../movs.js";
 
-const adam = new pieces("", '#fc9803', '#ce6600', '#fdfa95', tipoAlma[4],
+const adam = new pieces("", '#fc9803', '#ce6600', '#fdfa95', tipoAlma[8],
 	"adam", "Adam", "Aquel que desafió su destino", "Renacido de las cenizas",
 	"Descripción corta",
 	"Descripción",
@@ -308,8 +308,8 @@ const jacob = new pieces("", "#700000", "#400000", "#ff2222", tipoAlma[3],
 	basicOne()
 );
 
-const joseph = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const joseph = new pieces("", "#d12525", "#791419", "#460f0f", tipoAlma[0],
+	"joseph", "Joseph", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -346,8 +346,8 @@ const joseph = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const laura = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const laura = new pieces("", "#25bd20", "#048f22", "#74fc70ff", tipoAlma[6],
+	"laura", "Laura", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -384,8 +384,8 @@ const laura = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const cara = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const cara = new pieces("", "#", "#", "#", tipoAlma[2],
+	"cara", "Cara", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -422,8 +422,8 @@ const cara = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const eliza = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const eliza = new pieces("", "#", "#", "#", tipoAlma[2],
+	"eliza", "Eliza", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -460,8 +460,8 @@ const eliza = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const jamesL = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const jamesL = new pieces("", "#", "#", "#", tipoAlma[2],
+	"jamesL", "James", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -499,7 +499,7 @@ const jamesL = new pieces("", "#", "#", "#", tipoAlma[0],
 );
 
 const andres = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+	"andres", "Andrés", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -536,8 +536,8 @@ const andres = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const alejandro = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const alejandro = new pieces("", "#", "#", "#", tipoAlma[7],
+	"alejandro", "Alejandro", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -574,8 +574,8 @@ const alejandro = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const michael = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const michael = new pieces("", "#", "#", "#", tipoAlma[9],
+	"michael", "Michael", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -612,8 +612,8 @@ const michael = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const connor = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const connor = new pieces("", "#", "#", "#", tipoAlma[5],
+	"connor", "Connor", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -650,8 +650,8 @@ const connor = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const jadyn = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const jadyn = new pieces("", "#", "#", "#", tipoAlma[4],
+	"jadyn", "Jadyn", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -689,7 +689,7 @@ const jadyn = new pieces("", "#", "#", "#", tipoAlma[0],
 );
 
 const orfeo = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+	"orfeo", "Orfeo", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -727,7 +727,7 @@ const orfeo = new pieces("", "#", "#", "#", tipoAlma[0],
 );
 
 const eleanor = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+	"eleanor", "Eleanor", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -764,8 +764,8 @@ const eleanor = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const serafin = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const serafin = new pieces("", "#", "#", "#", tipoAlma[3],
+	"serafin", "Serafín", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -802,8 +802,8 @@ const serafin = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const olexei = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const olexei = new pieces("", "#", "#", "#", tipoAlma[5],
+	"olexei", "Olexei", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -840,8 +840,8 @@ const olexei = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const aiyana = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const aiyana = new pieces("", "#", "#", "#", tipoAlma[5],
+	"aiyana", "Aiyana", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -878,8 +878,8 @@ const aiyana = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const brisa = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const brisa = new pieces("", "#", "#", "#", tipoAlma[3],
+	"brisa", "Brisa", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -916,8 +916,8 @@ const brisa = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const evelyn = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const evelyn = new pieces("", "#", "#", "#", tipoAlma[5],
+	"evelyn", "Evelyn", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -954,8 +954,8 @@ const evelyn = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const luis = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const luis = new pieces("", "#", "#", "#", tipoAlma[7],
+	"luis", "Luis", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -993,7 +993,7 @@ const luis = new pieces("", "#", "#", "#", tipoAlma[0],
 );
 
 const alexa = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+	"alexa", "Alexa", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
@@ -1030,8 +1030,8 @@ const alexa = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const erin = new pieces("", "#", "#", "#", tipoAlma[0],
-	"var", "base", "titulo", "nameP",
+const erin = new pieces("", "#6d4416", "#221403", "#c9973b", tipoAlma[0],
+	"erin", "Erin", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
 	["Idle1",
