@@ -68,7 +68,7 @@ const leaderSabotage = new habilidades("Sabotaje al líder",
 	<li>Adam, Aquel que desafió su destino ('Optimista impostor')</li>\
 	<li>Adam, Aquel que desafió su destino ('Caida de la máscara')</li>\
 	<li>Adam, Aquel que desafió su destino ('Renacer del optimista')</li>\
-	<li>Adam, Aquel que desafió su destino ('Renacido de las cenízas')</li>\
+	<li>Adam, Aquel que desafió su destino ('Renacido de las cenizas')</li>\
 	</ul> \
 	le otorga el efecto 'Intolerancia al café', lo que cancela sus efectos y\
 	lo deja paralizado, si no se le quita el efecto en los siguientes 5 turnos,\

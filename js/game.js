@@ -1,5 +1,5 @@
-import { adam, akiko, brayan, darya, eivor, jacob, maryam, melissa } from "./game/dataP/canon.js";
-import { brayanSab, brayanRedim, adamEmo } from "./game/dataP/extra.js"
+import { adam, akiko, brayan, darya, eivor, jacob, maryam, melissa } from "./game/data/dataP/canon.js";
+import { brayanSab, brayanRedim, adamEmo } from "./game/data/dataP/extra.js"
 function idle(pieceObj){
     console.log("Llamando a " + pieceObj.nombre + " (" + pieceObj.piezanombre + ").")
     if (!pieceObj || !pieceObj.idleDialogo) return;

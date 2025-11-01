@@ -123,7 +123,5 @@ const absoluteEnd = new habilidades("Final absoluto",
 
 // Exportar
 export{ pancakesFury, cookingWar, hobbyChef, detectiveInstinct, admadisDawn,
-	antiLookMask, dutySense,
-	leaderSabotage,
 	eternity, emergencyHeal,
 	diceChange, absoluteEnd }
