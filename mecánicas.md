@@ -89,7 +89,7 @@
 ## Elesterlios y Visterlios
 
 |N° |Personaje|Pieza|Explicación|Movimiento básico|Enfoque principal|
-|---|-|-|-|-|-|
+|-|-|-|-|-|-|
 |001|Ayame|Brote en crecimiento|Figura más reciente|Diagonal|Invocación y curación|
 
 ## Extra
@@ -111,7 +111,7 @@
 
 ## AUs
 
-|N°|Personaje    |Pieza        |Explicación|Movimiento básico|Enfoque principal |
+|N°|Personaje|Pieza|Explicación|Movimiento básico|Enfoque principal|
 |-|-|-|-|-|-|
 |001|Class!Akiko|-|-|-|-|
 |002|Class!Darya|-|-|-|-|
@@ -142,12 +142,12 @@
 |027|Villain!Hasani|-|-|-|-|
 |028|Villain!Melissa|-|-|-|-|
 |029|Villain!Adam|-|-|-|-|
-|030|Furrykiller!Jacob| -|-|-|-|
+|030|Furrykiller!Jacob|-|-|-|-|
 |031|DeDPsy!Adam|-|-|-|-|
 |032|DeDPsy!Jade|-|-|-|-|
 |033|HorrorPark!Adam |-|-|-|-|
 |034|HorrorPark!Alexa|-|-|-|-|
-|035|HorrorPark!Maryam| -|-|-|-|
+|035|HorrorPark!Maryam|-|-|-|-|
 |036|HorrorPark!Eneko|-|-|-|-|
 |037|HorrorPark!Alexa|-|-|-|-|
 |038|HorrorPark!Erin |-|-|-|-|
@@ -166,32 +166,32 @@
 
 ## Fantasía/Personajes creados
 
-|N°|Personaje     |Pieza|Explicación|Movimiento básico|Enfoque principal  |
-|---| --------------|-----|-----------|-----------------|------------------ |
-|001| Ezer McMishan |-|-|-|- |
-|002| Daliah Heart  |-|-|-|- |
-|003| Zoe Syrielat  |-|-|-|- |
-|004| Mahid Daerbier|-|-|-|- |
-|005| Léon Huff     |-|-|-|- |
-|006| Alice Mason   |-|-|-|- |
-|007| Erick Craig   |-|-|-|- |
-|008| Mini-Boyer    |-|-|-|- |
+|N°|Personaje|Pieza|Explicación|Movimiento básico|Enfoque principal|
+|-|-|-|-|-|-|
+|001|Ezer McMishan|-|-|-|-|
+|002|Daliah Heart|-|-|-|-|
+|003|Zoe Syrielat|-|-|-|-|
+|004|Mahid Daerbier|-|-|-|-|
+|005|Léon Huff|-|-|-|-|
+|006|Alice Mason|-|-|-|-|
+|007|Erick Craig|-|-|-|-|
+|008|Mini-Boyer|-|-|-|-|
 
 ***
 
 # Símbolos de pieza
 
-|N°|Símbolo|Significado |
-|---| -------|----------- |
-|001| ⮝|Alma independiente |
-|002| ☀︎|Alma mágica |
-|003| ☁︎|Alma creativa |
-|004| ⚠︎|Alma fuerte |
-|005| ◆|Alma sensible |
-|006| ★|Alma curiosa |
-|007| ✿|Alma inocente |
-|008| ❤︎|Alma bondadosa |
-|009| ❖|Alma autodidacta |
-|010| ⌕|Alma tecnológica |
-|011| ❋|Alma natural |
-|012| ☯|Alma primordial |
+|N°|Símbolo|Significado|
+|-|-|-|
+|001|⮝|Alma independiente|
+|002|☀︎|Alma mágica|
+|003|☁︎|Alma creativa|
+|004|⚠︎|Alma fuerte|
+|005|◆|Alma sensible|
+|006|★|Alma curiosa|
+|007|✿|Alma inocente|
+|008|❤︎|Alma bondadosa|
+|009|❖|Alma autodidacta|
+|010|⌕|Alma tecnológica|
+|011|❋|Alma natural|
+|012|☯|Alma primordial|
