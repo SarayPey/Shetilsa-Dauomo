@@ -1,4 +1,4 @@
-import { adam, akiko, brayan, darya, eivor, jacob, maryam, melissa } from "./game/data/dataP/canon.js";
+import { adam, aiyana, akiko, alejandro, alexa, andres, brayan, brisa, cara, connor, darya, eleanor, eliza, eivor, erin, evelyn, jacob, jadyn, jamesL, joseph, laura, luis, maryam, melissa, michael, olexei, orfeo, serafin } from "./game/data/dataP/canon.js";
 import { brayanSab, brayanRedim, adamEmo } from "./game/data/dataP/extra.js"
 function idle(pieceObj){
     console.log("Llamando a " + pieceObj.nombre + " (" + pieceObj.piezanombre + ").")
@@ -40,7 +40,7 @@ window.onload = () => {
   // window.laura     = laura;
   // window.cara      = cara;
   // window.eliza     = eliza;
-  // window.james     = james;
+  // window.jamesL    = jamesL;
   // window.andres    = andres;
   // window.alejandro = alejandro;
   // window.michael   = michael;
@@ -57,7 +57,7 @@ window.onload = () => {
   // window.alexa     = alexa;
   // window.erin      = erin;
 
-  const character = [adam, akiko, brayan, darya, eivor, jacob, maryam, melissa, brayanSab, brayanRedim, adamEmo];
+  const character = [adam, aiyana, akiko, alejandro, alexa, andres, brayan, brisa, cara, connor, darya, eleanor, eliza, eivor, erin, evelyn, jacob, jadyn, jamesL, joseph, laura, luis, maryam, melissa, michael, olexei, orfeo, serafin, brayanSab, brayanRedim, adamEmo];
 
 
   // Jugador 1

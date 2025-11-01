@@ -79,4 +79,5 @@ const leaderSabotage = new habilidades("Sabotaje al líder",
 	leaderSabotageMov()
 )
 
-export {antiLookMask, dutySense, leaderSabotage}
+export { antiLookMask, dutySense,
+	leaderSabotage }

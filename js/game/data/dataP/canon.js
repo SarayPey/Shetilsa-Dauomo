@@ -308,6 +308,766 @@ const jacob = new pieces("", "#700000", "#400000", "#ff2222", tipoAlma[3],
 	basicOne()
 );
 
+const joseph = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const laura = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const cara = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const eliza = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const jamesL = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const andres = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const alejandro = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const michael = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const connor = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const jadyn = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const orfeo = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const eleanor = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const serafin = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const olexei = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const aiyana = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const brisa = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const evelyn = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const luis = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const alexa = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const erin = new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
 new pieces("", "#", "#", "#", tipoAlma[0],
 	"var", "base", "titulo", "nameP",
 	"Descripción corta",
@@ -346,6 +1106,7 @@ new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
+
 // Exportar
-export {adam, akiko, brayan, darya, eivor, jacob, maryam, melissa}
-// '#481880', '#24085c', '#772bb5'
+export {adam, aiyana, akiko, alejandro, alexa, andres, brayan, brisa, cara, connor, darya, eleanor, eliza, eivor, erin, evelyn, jacob, jadyn, jamesL, joseph, laura, luis, maryam, melissa, michael, olexei, orfeo, serafin}
+// '#481880', '#24085c', '72bb5'
