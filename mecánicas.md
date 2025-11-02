@@ -192,6 +192,8 @@
 |007|✿|Alma inocente|
 |008|❤︎|Alma bondadosa|
 |009|❖|Alma autodidacta|
-|010|⌕|Alma tecnológica|
+|010|✱|Alma tecnológica|
 |011|❋|Alma natural|
-|012|☯|Alma primordial|
+|012|✉|Alma viajera
+|013|♫|Alma musical|
+|014|☯|Alma primordial|
