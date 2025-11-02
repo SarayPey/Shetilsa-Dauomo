@@ -916,7 +916,7 @@ const brisa = new pieces("", "#", "#", "#", tipoAlma[3],
 	basicOne()
 );
 
-const evelyn = new pieces("", "#", "#", "#", tipoAlma[5],
+const evelyn = new pieces("", "#", "#", "#", tipoAlma[9],
 	"evelyn", "Evelyn", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1068,6 +1068,83 @@ const erin = new pieces("", "#6d4416", "#221403", "#c9973b", tipoAlma[0],
 	basicOne()
 );
 
+const diana = new pieces("", "#", "#", "#", tipoAlma[2],
+	"diana", "Diana", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const daniel = new pieces("", "#", "#", "#", tipoAlma[10],
+	"daniel", "Daniel", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+
 new pieces("", "#", "#", "#", tipoAlma[0],
 	"var", "base", "titulo", "nameP",
 	"Descripción corta",
@@ -1108,5 +1185,5 @@ new pieces("", "#", "#", "#", tipoAlma[0],
 
 
 // Exportar
-export {adam, aiyana, akiko, alejandro, alexa, andres, brayan, brisa, cara, connor, darya, eleanor, eliza, eivor, erin, evelyn, jacob, jadyn, jamesL, joseph, laura, luis, maryam, melissa, michael, olexei, orfeo, serafin}
-// '#481880', '#24085c', '72bb5'
+export {adam, aiyana, akiko, alejandro, alexa, andres, brayan, brisa, cara, connor, daniel, darya, diana, eleanor, eliza, eivor, erin, evelyn, jacob, jadyn, jamesL, joseph, laura, luis, maryam, melissa, michael, olexei, orfeo, serafin}
+// '#481880', '#24085c', '#672bb5'
