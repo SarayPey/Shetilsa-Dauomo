@@ -1,6 +1,6 @@
 # Movimientos básicos
 
-|N°|Movimiento |
+|N°|Movimiento|
 |-|-|
 |1|Vertical|
 |2|Horizontal|
@@ -14,13 +14,13 @@
 
 |N° en js|Nombre|Descripción|
 |-|-|-|
-|0| Ofensiva |Se basa en atacar o acercarse a más enemigos |
-|1| Defensiva |Se basa en proteger al equipo |
-|2| Invocadora|Invoca seres no fichas para algún propósito |
-|3| Curadora |Revive fichas aliadas |
-|4| De equipo |Da buffs o protege al equipo |
-|5| De sinergia|Solo pueden ser usadas tras otra habilidad |
-|6| Definitorias| Solo pueden funcionar si se cumple una condición, pues son tan poderosas como para terminar el juego si se usan correctamente |
+|0|Ofensiva|Se basa en atacar o acercarse a más enemigos|
+|1|Defensiva|Se basa en proteger al equipo|
+|2|Invocadora|Invoca seres no fichas para algún propósito|
+|3|Curadora|Revive fichas aliadas|
+|4|De equipo|Da buffs o protege al equipo|
+|5|De sinergia|Solo pueden ser usadas tras otra habilidad|
+|6|Definitorias| Solo pueden funcionar si se cumple una condición, pues son tan poderosas como para terminar el juego si se usan correctamente|
 
 *En proceso*
 
@@ -28,13 +28,13 @@
 
 # Enfoques
 
-| Nombre       |Definición                  |
-| -----------------|------------------------------------------ |
-| Buffer       |Mejorar las habilidades del equipo      |
-| Debuffer     |Disminuiir las habilidades del oponente   |
-| Tanque      |Tiene habilidades que disminuyen sus stats |
-| Sigilo      |Ir a velocidades lejanas           |
-| Control de campo |Modificar el campo o las mecánicas      |
+|Nombre|Definición|
+|-|-|
+|Buffer|Mejorar las habilidades del equipo|
+|Debuffer|Disminuiir las habilidades del oponente|
+|Tanque|Tiene habilidades que disminuyen sus stats|
+|Sigilo|Ir a velocidades lejanas|
+|Control de campo |Modificar el campo o las mecánicas|
 
 *El resto son de tipos de hablidades*
 
@@ -42,12 +42,12 @@
 
 ## Tipos de daño
 
-|N°| N° en js|Nombre  |tipo de daño |
-|--|----------|----------|--------------|
-|1 |0    |Poderosa|Ultra mítica |
-|2 |1    |Radiante|Legendaria  |
-|3 |2    |Valerosa|Rara     |
-|4 |3    |Austera |Común/poca  |
+|N°|N° en js|Nombre|tipo de daño|
+|-|-|-|-|
+|1|0|Poderosa|Ultra mítica|
+|2|1|Radiante|Legendaria|
+|3|2|Valerosa|Rara|
+|4|3|Austera|Común/poca|
 
 *En proceso*
 
@@ -55,7 +55,7 @@
 
 # Personajes en construcción
 
-|Personaje|Pieza|Habilidades |
+|Personaje|Pieza|Habilidades|
 |-|-|-|
 |Adam|Renacido de las cenízas|Panqueques furiosos, Guerra cocinera, Chef por pasatiempo, Instinto detectivesco, Alba del admadis, *Creando*|
 |Adam|Optimista impostor|Máscara anti-miradas, Sentido del deber, *Creando*|
@@ -71,7 +71,7 @@
 ## Canon
 
 |N° |Personaje|Pieza|Explicación|Movimiento básico|Enfoque principal|
-|---|-|-|-|-|-|
+|-|-|-|-|-|-|
 |001|Melissa|Detective talentosa|Figura más reciente|Vertical|Sigilo y defensa|
 |002|Alexa|Deportista valerosa|Figura más reciente|Vertical|Ataque, tanque y sigilo|
 |003|Erin|Teniente investigador|Época actual de su rol como teniente|Vertical|Tanque y control de campo|
