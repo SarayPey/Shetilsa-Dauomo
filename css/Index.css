@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Atma:wght@300;400;500;600;700&family=Bad+Script&family=Bubbler+One&family=Chewy&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Coral+Pixels&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=Farsan&family=Great+Vibes&family=Handlee&family=Happy+Monkey&family=Just+Another+Hand&family=Kumar+One&family=Lily+Script+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mea+Culpa&family=Shadows+Into+Light&family=Tillana:wght@400;500;600;700;800&family=Trochut:ital,wght@0,400;0,700;1,400&family=Tsukimi+outlined&family=Twinkle+Star&family=Waiting+for+the+Sunrise&display=swap');
+
 * {
   transition: all .2s;
 }
@@ -7,7 +9,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-	padding: 10px;
+	padding: 2px;
+}
+
+header {
+	font-size: 70px;
+  color: #825B00;
+  background-image: linear-gradient(0deg, #825B00 40%, #FFE033 50%, #825B00 57%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-family: cinzel decorative, Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	padding: 1%;
 }
 
 nav a {
