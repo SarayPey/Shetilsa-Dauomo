@@ -1296,6 +1296,82 @@ const christian = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
+const mariaD = new pieces("", "#", "#", "#", tipoAlma[0],
+	"mariaD", "Maria", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
+const gavya = new pieces("", "#", "#", "#", tipoAlma[0],
+	"gavya", "Gavya", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+
 new pieces("", "#", "#", "#", tipoAlma[0],
 	"var", "base", "titulo", "nameP",
 	"Descripción corta",
@@ -1338,4 +1414,9 @@ new pieces("", "#", "#", "#", tipoAlma[0],
 // Exportar
 export {adam, aiyana, akiko, alec, alejandro, alexa, andres, brayan, brisa, cara, christian, connor, daniel, darya, diana, eleanor, eliza, eivor, emma, erin, evelyn, jacob, jadyn, jamesL, joseph, laura, luis, maryam, melissa, michael, olexei, orfeo, serafin, violeta}
 // '#481880', '#24085c', '#672bb5'
-//los 20 = [akiko, alejandro, alexa, andres, cara, connor, daniel, darya, diana, eliza, jacob, jamesL, joseph, laura, melissa, michael, emma, violeta, alec, christian];
+// const los20          = [akiko, alejandro, alexa, andres, cara, connor, daniel, darya, diana, eliza, jacob, jamesL, joseph, laura, melissa, michael, emma, violeta, alec, christian];
+// const sector970      = [adam, melissa, brayan, luis, evelyn]
+// const sector1        = [orfeo, eleanor, mariaD, gavya, jadyn]
+// const sector43       = [maryam, brisa, olexei, serafin, aiyana]
+// const sInvestigacion = [sector1, sector43, sector970, erin]
+// const adamAmigos     = [sInvestigacion, los20]
