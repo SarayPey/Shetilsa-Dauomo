@@ -1,4 +1,4 @@
-import { adam, aiyana, akiko, alec, alejandro, alexa, andres, brayan, brisa, cara, christian, connor, daniel, darya, diana, eleanor, eliza, eivor, emma, erin, evelyn, jacob, jadyn, jamesL, joseph, laura, luis, maryam, melissa, michael, olexei, orfeo, serafin, violeta } from "./game/data/dataP/canon.js";
+import { adam, aiyana, akiko, alec, alejandro, alexa, andres, brayan, brisa, cara, christian, connor, daniel, darya, diana, eleanor, eliza, eivor, emma, erin, evelyn, gavya, jacob, jadyn, jamesL, joseph, laura, luis, mariaD, maryam, melissa, michael, olexei, orfeo, serafin, violeta } from "./game/data/dataP/canon.js";
 import { brayanSab, brayanRedim, adamEmo } from "./game/data/dataP/extra.js"
 function idle(pieceObj){
     console.log("Llamando a " + pieceObj.nombre + " (" + pieceObj.piezanombre + ").")
@@ -57,7 +57,44 @@ window.onload = () => {
   window.alexa     = alexa;
   window.erin      = erin;
 
-  const character = [adam, aiyana, akiko, alec, alejandro, alexa, andres, brayan, brisa, cara, christian, connor, daniel, darya, diana, eleanor, eliza, eivor, emma, erin, evelyn, jacob, jadyn, jamesL, joseph, laura, luis, maryam, melissa, michael, olexei, orfeo, serafin, violeta, brayanSab, brayanRedim, adamEmo];
+  const character = [adam, aiyana, akiko, alec, alejandro, alexa, andres, brayan, brisa, cara, christian, connor, daniel, darya, diana, eleanor, eliza, new pieces("", "#", "#", "#", tipoAlma[0],
+	"var", "base", "titulo", "nameP",
+	"Descripción corta",
+	"Descripción larga",
+	["Idle1",
+	 "Idle2",
+	 "Idle3",
+	 "Idle4",
+	 "Idle5"
+	],
+	["Acabar1",
+	 "Acabar2",
+	 "Acabar3",
+	 "Acabar4",
+	 "Acabar5"
+	],
+	["AmigoTieso1",
+	 "AmigoTieso2",
+	 "AmigoTieso3",
+	 "AmigoTieso4",
+	 "AmigoTieso5"
+	],
+	["Tieso1",
+	 "Tieso2",
+	 "Tieso3",
+	 "Tieso4",
+	 "Tieso5"
+	],
+	["Revive1",
+	 "Revive2",
+	 "Revive3",
+	 "Revive4",
+	 "Revive5"
+	],
+	[],
+	basicOne()
+);
+eivor, emma, erin, evelyn, gavya, jacob, jadyn, jamesL, joseph, laura, luis, mariaD, maryam, melissa, michael, olexei, orfeo, serafin, violeta, brayanSab, brayanRedim, adamEmo];
 
 
   // Jugador 1

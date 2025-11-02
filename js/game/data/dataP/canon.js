@@ -1412,7 +1412,7 @@ new pieces("", "#", "#", "#", tipoAlma[0],
 
 
 // Exportar
-export {adam, aiyana, akiko, alec, alejandro, alexa, andres, brayan, brisa, cara, christian, connor, daniel, darya, diana, eleanor, eliza, eivor, emma, erin, evelyn, jacob, jadyn, jamesL, joseph, laura, luis, maryam, melissa, michael, olexei, orfeo, serafin, violeta}
+export {adam, aiyana, akiko, alec, alejandro, alexa, andres, brayan, brisa, cara, christian, connor, daniel, darya, diana, eleanor, eliza, eivor, emma, erin, evelyn, gavya, jacob, jadyn, jamesL, joseph, laura, luis, mariaD, maryam, melissa, michael, olexei, orfeo, serafin, violeta}
 // '#481880', '#24085c', '#672bb5'
 // const los20          = [akiko, alejandro, alexa, andres, cara, connor, daniel, darya, diana, eliza, jacob, jamesL, joseph, laura, melissa, michael, emma, violeta, alec, christian];
 // const sector970      = [adam, melissa, brayan, luis, evelyn]
