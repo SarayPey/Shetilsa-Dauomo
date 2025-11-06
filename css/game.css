@@ -17,6 +17,10 @@ body {
   background-attachment: fixed;
 }
 
+main {
+	padding: 1.3%;
+}
+
 header {
 	font-size: 70px;
   color: #825B00;
