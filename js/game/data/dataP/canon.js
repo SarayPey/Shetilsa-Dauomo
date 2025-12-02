@@ -384,7 +384,7 @@ const laura = new pieces("", "#25bd20", "#048f22", "#74fc70ff", tipoAlma[6],
 	basicOne()
 );
 
-const cara = new pieces("", "#8b0b8b", "#550950", "#e363e7", tipoAlma[2],
+const cara = new pieces("", "#8b0b8b", "#550950", "#e363e7", tipoAlma[11],
 	"cara", "Cara", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1068,7 +1068,7 @@ const erin = new pieces("", "#6d4416", "#221403", "#c9973b", tipoAlma[0],
 	basicOne()
 );
 
-const diana = new pieces("", "#", "#", "#", tipoAlma[2],
+const diana = new pieces("", "#0ac", "#069", "#aff", tipoAlma[12],
 	"diana", "Diana", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1106,7 +1106,7 @@ const diana = new pieces("", "#", "#", "#", tipoAlma[2],
 	basicOne()
 );
 
-const daniel = new pieces("", "#", "#", "#", tipoAlma[10],
+const daniel = new pieces("", "#f5a", "#b36", "#fce", tipoAlma[10],
 	"daniel", "Daniel", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
