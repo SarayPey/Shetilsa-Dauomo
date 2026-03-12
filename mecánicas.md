@@ -1,12 +1,17 @@
-# Movimientos básicos
+# REGLAS
 
-|N°|Movimiento|
-|-|-|
-|1|Vertical|
-|2|Horizontal|
-|3|Diagonal|
+1. Jugador 1 (Interfaz dorada) empieza sobre Jugador 2 (interfaz naranja).
+2. Cada jugador tendrá un movimiento por turno, a menos que una habilidad otorgue una habilidad.
+	- Se debe arrastrar la ficha hacia alguna de las posiciones permitidas.
+	- Las habilidades se consideran un movimiento a menos que se diga lo contrario.
+3. Sobre las piezas:
+	- Todas tienen un tipo de alma, que otorga el movimiento que realizan, una pasiva y es parte de la historia del personaje. Estas pueden cambiar dependiendo de la historia del personaje.
+	- Cada pieza otorga al menos 5 habilidades, además de una definitoria.
+	- Los personajes tienen una pieza canon (leáse **Canon**), versiones pasadas (léase **Extras**) y versiones de universos alternativos (léase **AUs**).
+4. Al atacar una pieza enemiga, esta se destruye (a menos que algo lo evite).
+5. Gana quien acaba con todas las piezas del oponente.
 
-*En proceso*
+(El juego puede demorar muchas horas en ser terminado por la cantidad de habilidades, perdón).
 
 ***
 
@@ -78,19 +83,19 @@
 |004|Evelyn|Hacker de élite policial|Figura más reciente, cuando entró al sector 970|Vertical|Buffer, control de campo y ataque|
 |005|Luis|Defensor de niños|Figura más reciente|Vertical|Ataque, buffer y curación|
 |006|Maryam|Liberadora de la verdad|Época actual de su rol como detective del sector 42|Vertical|Sigilo, defensa y curación|
-|007|Eneko| Niño de Sombrarix|Cuando se volvió un híbrido de mochibria y shadowixh|Diagonal|Sinergia, sigilo y buffer|
-|008|Thomas| Cazador de venganza|Figura más reciente|Diagonal|Ataque y sigilo|
-|009|Odess| Doctora de corazones|Figura más reciente|Diagonal|Curación y buffer|
-|010|Brayan| Bromista experto en espionaje| Finalmente redimido|Vertical|Ataque y buffer|
-|011|Adam| Renacido de las cenízas|Una vez que se quiere a sí mismo|Diagonal|Curación y defensa|
+|007|Eneko|Niño de Sombrarix|Cuando se volvió un híbrido de mochibria y shadowixh|Diagonal|Sinergia, sigilo y buffer|
+|008|Thomas|Cazador de venganza|Figura más reciente|Diagonal|Ataque y sigilo|
+|009|Odess|Doctora de corazones|Figura más reciente|Diagonal|Curación y buffer|
+|010|Brayan|Bromista experto en espionaje| Finalmente redimido|Vertical|Ataque y buffer|
+|011|Adam|Renacido de las cenízas|Una vez que se quiere a sí mismo|Diagonal|Curación y defensa|
 |012|Eivor|Informante de la suerte|Figura más reciente|Diagonal| Control de campo|
-|013|Akiko| Sanadora de la hoja dorada| Figura más reciente|Diagonal|Curación y control de campo|
+|013|Akiko|Sanadora de la hoja dorada| Figura más reciente|Diagonal|Curación y control de campo|
 
 ## Elesterlios y Visterlios
 
 |N° |Personaje|Pieza|Explicación|Movimiento básico|Enfoque principal|
 |-|-|-|-|-|-|
-|001|Ayame|Brote en crecimiento|Figura más reciente|Diagonal|Invocación y curación|
+|001|Ayame|Brote en crecimiento|Era 2 y Generación 2|Diagonal|Invocación y curación|
 
 ## Extra
 
@@ -181,19 +186,21 @@
 
 # Símbolos de pieza
 
-|N°|Símbolo|Significado|
-|-|-|-|
-|001|⮝|Alma independiente|
-|002|☀︎|Alma mágica|
-|003|☁︎|Alma creativa|
-|004|⚠︎|Alma fuerte|
-|005|◆|Alma sensible|
-|006|★|Alma curiosa|
-|007|✿|Alma inocente|
-|008|❤︎|Alma bondadosa|
-|009|❖|Alma autodidacta|
-|010|✱|Alma tecnológica|
-|011|❋|Alma natural|
-|012|✉|Alma viajera
-|013|♫|Alma musical|
-|014|☯|Alma primordial|
+|N°|Símbolo|Significado|Movimiento|Pasiva constante|
+|-|-|-|-|-|
+|001|⮝|Alma independiente|Vertical|-.|
+|002|☀︎|Alma mágica|[]|-.|
+|003|☁︎|Alma creativa|[]|-.|
+|004|⚠︎|Alma fuerte|[]|-.|
+|005|◆|Alma sensible|[]|-.|
+|006|★|Alma curiosa|[]|-.|
+|007|✿|Alma inocente|[]|-.|
+|008|❤︎|Alma bondadosa|Ficha aliada cercana o en diagonal|Otorga un escudo a las fichas cercanas e invoca un compañero que absorbe daño dependiendo de los personajes de alma bondadosa en juego.|
+|009|❖|Alma autodidacta|Imitar ficha cercana al inicio del juego (menos primordial)|Si se elimina una ficha enemiga, +1 movimiento.|
+|010|✱|Alma tecnológica|Casillas transformadas en 0s y 1s|-.|
+|011|❋|Alma natural|Solo un color|Aumenta margen de error de enemigos, otorga bendición curativa a aliados con debuff.|
+|012|✉|Alma viajera|Aleatorio|Si cae cerca de un aliado, imita una habilidad y otorga "Recuerdo de viaje", +1 movimiento.|
+|013|♫|Alma musical|Zig-Zag|Al estar cerca de un aliado otorga "Nota de amor", dando un escudo.|
+|014|☯|Alma primordial|Todos lados|Aumenta el daño de todos los aliados en 1 nivel, primordiales aliados aumentan a *Poderosa*.|
+
+*: La pasiva solo es válida con 4 o más personajes del mismo tipo de alma, exceptuando primordiales, que activan cuando acaban con un oponente.

@@ -17,30 +17,30 @@ const nivPoder			  = ["Poderosa", "Radiante", "Valerosa", "Austera"]
 // ------------------------- 0 ---------- 1 -------- 2 --------- 3 ------------------------------------------------------ //
 
 const tipoAlma				= ["⮝", "☀︎", "☁︎", "⚠︎", "◆", "★", "✿", "❤︎", "❖", "✱", "❋", "✉", "♫", "☯"]
-// ---------------------- 0 --- 1 -- 2 --- 3 --- 4 -- 5 -- 6 --- 7 -- 8 -- 9 -- 10 -- 11 -- 12 - 13 -------------------- //
+// ---------------------- 0 --- 1 -- 2 --- 3 --- 4 -- 5 -- 6 --- 7 --- 8 -- 9 -- 10 -- 11 -- 12 - 13 -------------------- //
 
 class pieces {
 	constructor(imgIcon, col1, col2, col3, tipAlma, varName, nombre, titulo, piezanombre, Cortdesc, desc,
-		idleDialogo, endingDialog, seeEndDialog, sEndDialogo, revivalDialog,
+		idleDialogo, endingDialog, seeEndDialog, endDialogo, revivalDialog,
 		habilidades, defaMov) {
 		this.imgIcon = imgIcon;
-		this.col1 = col1;
-		this.col2 = col2;
-		this.col3 = col3;
-		this.varName = varName;
-		this.tipAlma = tipAlma; //Ya que hice una ficha, el tipo de "alma" determina el símbolo que usará la ficha al centro
-		this.nombre = nombre;
-		this.titulo = titulo,
-		this.piezanombre = piezanombre;
-		this.Cortdesc = Cortdesc;
-		this.desc = desc;
-		this.idleDialogo = idleDialogo;
-		this.endingDialog = endingDialog;
-		this.seeEndDialog = seeEndDialog;
-		this.sEndDialogo = sEndDialogo;
-		this.revivalDialog = revivalDialog;
+		this.col1 = col1; // Color de la ficha (Normal)
+		this.col2 = col2; // Color de la ficha (Oscuro)
+		this.col3 = col3; // Color de la ficha (Alma)
+		this.varName = varName; // Nombre de variable con fines de programación más simple
+		this.tipAlma = tipAlma; //Ya que hice una ficha, el tipo de "alma" determina el símbolo que usará la ficha al centro + movimiento
+		this.nombre = nombre; // Nombre de personaje
+		this.titulo = titulo; // Título canon de personaje
+		this.piezanombre = piezanombre; // Nombre de la pieza
+		this.Cortdesc = Cortdesc; // Resumen para jugadores casuales
+		this.desc = desc; // Descripción larga
+		this.idleDialogo = idleDialogo; // Diálogos en momento de preparación (mínimo 5)
+		this.endingDialog = endingDialog; // Díalogos cuando acaba con una ficha (mínimo 5)
+		this.seeEndDialog = seeEndDialog; // Díalogos cuando ve morir a un aliado (mínimo 5)
+		this.endDialogo = endDialogo; // Díalogos cuando muere (mínimo 5)
+		this.revivalDialog = revivalDialog; // Díalogos cuando revive (mínimo 5)
 		this.habilidades = habilidades;
-		this.defaMov = defaMov
+		this.defaMov = defaMov;
 	}
 }
 

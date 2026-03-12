@@ -16,6 +16,8 @@ Damas + ajedrez + habilidades de juegos RPG + lore(fantasía * traumas) + creado
 	- En serio, hasta hay habilidades para revivir piezas muertas.
 - Solo hecho con HTML 5, CSS y JavaScript.
 
+No begginer-friendly, pero habrá un tutorial de juego y otras mecánicas disponibles.
+
 <small>Solo se puede jugar si tienes acceso a internet, un navegador y un amigo en la vida real que quiera jugar algo re complejo. No se paga la terapia por los daños emocionales que este juego pueda causar.</small>
 
 <small>Otra cosita, como no he puesto sistema de cuentas y demás (porque no sé cómo hacer eso), la información de peleas ganadas se va a perder. Sorry 😔</small>

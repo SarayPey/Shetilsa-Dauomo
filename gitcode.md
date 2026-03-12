@@ -21,7 +21,4 @@ git push`
 
 # ACTUALIZAR
 
-`git checkout main  
 git pull  
-git checkout {nombre-de-la-rama}  
-git merge main`

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Atma:wght@300;400;500;600;700&family=Bad+Script&family=Bubbler+One&family=Chewy&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Coral+Pixels&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=Farsan&family=Great+Vibes&family=Handlee&family=Happy+Monkey&family=Just+Another+Hand&family=Kumar+One&family=Lily+Script+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mea+Culpa&family=Shadows+Into+Light&family=Tillana:wght@400;500;600;700;800&family=Trochut:ital,wght@0,400;0,700;1,400&family=Tsukimi+outlined&family=Twinkle+Star&family=Waiting+for+the+Sunrise&display=swap');
 
 :root {
-	--cell-size: 64px;
+	--cell-size: 60px;
 	--main: #dddddd;
 	--realG: #aaaaaa;
 	--realL: #ffffff;
@@ -18,7 +18,7 @@ body {
 }
 
 main {
-	padding: .53%;
+	padding-left: .53%;
 }
 
 header {
@@ -31,6 +31,12 @@ header {
 	font-family: cinzel decorative, Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 	padding: 1%;
+	padding-top: 0;
+}
+
+nav {
+	padding: .6%;
+	position: fixed;
 }
 
 nav a {
@@ -68,9 +74,34 @@ nav a #active {
 	filter: drop-shadow(0 0 4px #ffe600);
 	transform: scale(1.2);
 }
-.glyphicon.glyphicon-cloud {
-	color: #ffbf3f;
-	font-size: 50px;
+
+#botones {
+	text-align: center;
+	position: fixed;
+	font-family: Atma, cursive;
+	font-size: 20px;
+}
+
+#botones tr td {
+	padding: 10px;
+	text-align: center;
+}
+
+#botones tr td button {
+	width: 130px;
+	padding: 5px;
+	border-radius: 10px;
+	border: 0;
+}
+
+#botones tr td .p1 {
+	background-color: #ffd000;
+	color: #000000;
+}
+
+#botones tr td .p2 {
+	background-color: #ff6600;
+	color: #000000;
 }
 
 #dialogo {
@@ -91,16 +122,17 @@ nav a #active {
   z-index: 200;
 }
 
-table {
-  border-collapse: collapse;
-  margin: auto;
-  box-shadow: 0 0 25px #fff565, 0 0 5px #fff565;
-}
 #tablero {
 	padding-bottom: 5%;
 }
 
-td {
+#tablero {
+  border-collapse: collapse;
+  margin: auto;
+  box-shadow: 0 0 25px #fff565, 0 0 5px #fff565;
+}
+
+#tablero td {
   width: var(--cell-size);
   height: var(--cell-size);
   border: 2px solid #fffaae;
@@ -108,17 +140,17 @@ td {
   vertical-align: middle;
 }
 
-tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+#tablero tr:nth-child(even) td:nth-child(even), #tablero tr:nth-child(odd) td:nth-child(odd) {
 	background-color: #d6b031;
 }
 
-tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
+#tablero tr:nth-child(even) td:nth-child(odd), #tablero tr:nth-child(odd) td:nth-child(even) {
 	background-color: #af7d12;
 }
 
 .pieza, .pieza.p1, .pieza.p2 {
-	width: 50px;
-	height: 50px;
+	width: 45px;
+	height: 45px;
 	align-content: center;
 	margin: auto;
 	padding: auto;

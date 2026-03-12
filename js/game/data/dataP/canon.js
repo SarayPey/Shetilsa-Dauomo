@@ -650,7 +650,7 @@ const connor = new pieces("", "#67b424", "#297c0f", "#092502ff", tipoAlma[5],
 	basicOne()
 );
 
-const jadyn = new pieces("", "#", "#", "#", tipoAlma[4],
+const jadyn = new pieces("", "#a19bff", "#5653db", "#0c0a1f", tipoAlma[4],
 	"jadyn", "Jadyn", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -954,7 +954,7 @@ const evelyn = new pieces("", "#", "#", "#", tipoAlma[9],
 	basicOne()
 );
 
-const luis = new pieces("", "#", "#", "#", tipoAlma[7],
+const luis = new pieces("", "#c41616", "#6e0909", "#ff8777", tipoAlma[7],
 	"luis", "Luis", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1068,7 +1068,7 @@ const erin = new pieces("", "#6d4416", "#221403", "#c9973b", tipoAlma[0],
 	basicOne()
 );
 
-const diana = new pieces("", "#", "#", "#", tipoAlma[2],
+const diana = new pieces("", "#00beee", "#056fb6", "#ffffff", tipoAlma[2],
 	"diana", "Diana", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1106,7 +1106,7 @@ const diana = new pieces("", "#", "#", "#", tipoAlma[2],
 	basicOne()
 );
 
-const daniel = new pieces("", "#", "#", "#", tipoAlma[10],
+const daniel = new pieces("", "#ff41b0", "#c92268", "#ffb3d6", tipoAlma[10],
 	"daniel", "Daniel", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
