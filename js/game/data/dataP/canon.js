@@ -688,7 +688,7 @@ const jadyn = new pieces("", "#a19bff", "#5653db", "#0c0a1f", tipoAlma[4],
 	basicOne()
 );
 
-const orfeo = new pieces("", "#", "#", "#", tipoAlma[0],
+const orfeo = new pieces("", "#47341d", "#271a15", "#b3744f", tipoAlma[0],
 	"orfeo", "Orfeo", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -726,7 +726,7 @@ const orfeo = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const eleanor = new pieces("", "#", "#", "#", tipoAlma[0],
+const eleanor = new pieces("", "#f56715", "#c5480e", "#ffba7a", tipoAlma[0],
 	"eleanor", "Eleanor", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -764,7 +764,7 @@ const eleanor = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const serafin = new pieces("", "#", "#", "#", tipoAlma[3],
+const serafin = new pieces("", "#9b765b", "#70533b", "#e2c8a0", tipoAlma[3],
 	"serafin", "Serafín", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -802,7 +802,7 @@ const serafin = new pieces("", "#", "#", "#", tipoAlma[3],
 	basicOne()
 );
 
-const olexei = new pieces("", "#", "#", "#", tipoAlma[5],
+const olexei = new pieces("", "#78c545", "#4a8b0e", "#1f6411", tipoAlma[5],
 	"olexei", "Olexei", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -840,7 +840,7 @@ const olexei = new pieces("", "#", "#", "#", tipoAlma[5],
 	basicOne()
 );
 
-const aiyana = new pieces("", "#", "#", "#", tipoAlma[5],
+const aiyana = new pieces("", "#2a52d6", "#172d91", "#479ff1", tipoAlma[5],
 	"aiyana", "Aiyana", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -878,7 +878,7 @@ const aiyana = new pieces("", "#", "#", "#", tipoAlma[5],
 	basicOne()
 );
 
-const brisa = new pieces("", "#", "#", "#", tipoAlma[3],
+const brisa = new pieces("", "#a32b2b", "#790b0b", "#ff775f", tipoAlma[3],
 	"brisa", "Brisa", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -916,7 +916,7 @@ const brisa = new pieces("", "#", "#", "#", tipoAlma[3],
 	basicOne()
 );
 
-const evelyn = new pieces("", "#", "#", "#", tipoAlma[9],
+const evelyn = new pieces("", "#e42fa7", "#b1116e", "#ff8ed0", tipoAlma[9],
 	"evelyn", "Evelyn", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -992,7 +992,7 @@ const luis = new pieces("", "#c41616", "#6e0909", "#ff8777", tipoAlma[7],
 	basicOne()
 );
 
-const alexa = new pieces("", "#", "#", "#", tipoAlma[0],
+const alexa = new pieces("", "#df4545", "#a32424", "#491212", tipoAlma[0],
 	"alexa", "Alexa", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
