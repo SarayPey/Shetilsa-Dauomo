@@ -9,6 +9,7 @@ git remote add origin https://github.com/SarayPey/Shetilsa-Dauomo.git
 git push -u origin main`
 
 # PRIMER COMMIT
+
 `git add .  
 git commit -m "{aqui escribo mi mensaje}"  
 git push --set-upstream origin {nombre-de-la-rama}`
