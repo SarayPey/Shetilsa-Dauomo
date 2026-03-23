@@ -15,7 +15,7 @@ const adam = new pieces("", '#fc9803', '#ce6600', '#fdfa95', tipoAlma[8],
 	 "Si necesitas ayuda, puedes confiar en mí."
 	],
 	["Lo siento…",
-	"No quería hacerlo, pero te metiste con quienes amo.",
+	 "No quería hacerlo, pero te metiste con quienes amo.",
 	 "Me acabo de acordar que casi me pasa algo así una vez.",
 	 "Acabar4",
 	 "Acabar5"
@@ -70,7 +70,7 @@ const melissa = new pieces("", '#5009ae', '#2a0766', '#0e0118', tipoAlma[3],
 	 "…",
 	 "Supongo que…"
 	],
-	["¿Estoy de vuelta? Bueno, ya qué.",
+	["¿Estoy de vuelta?",
 	 "Gracias a los primordiales",
 	 "Revive3",
 	 "Revive4",
@@ -194,15 +194,15 @@ const darya = new pieces("", "#f48410", "#c05200", "#632001", tipoAlma[0],
 	basicOne()
 );
 
-const eivor = new pieces("", "#00105f", "#04003f", "#fff000", tipoAlma[3],
+const eivor = new pieces("", "#0c1e75", "#09053b", "#fff000", tipoAlma[3],
 	"eivor", "Eivor", "informante del azar", "Informante de la suerte",
 	"Descripción corta",
 	"Descripción larga",
 	["Que la suerte los acompañe… porque la tomé toda para mí.",
 	 "Tengo un plan maestro para ganar",
 	 "*Risas*",
-	 "Idle4",
-	 "Idle5"
+	 "No se preocupen, el juego está a nuestro favor",
+	 "Sigan mis pasos y ganaremos"
 	],
 	["La suerte no estuvo a tu favor",
 	 "Acabar2",
@@ -1068,7 +1068,7 @@ const erin = new pieces("", "#6d4416", "#221403", "#c9973b", tipoAlma[0],
 	basicOne()
 );
 
-const diana = new pieces("", "#0ac", "#069", "#aff", tipoAlma[12],
+const diana = new pieces("", "#00aacc", "#006699", "#aaffff", tipoAlma[12],
 	"diana", "Diana", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1106,7 +1106,7 @@ const diana = new pieces("", "#0ac", "#069", "#aff", tipoAlma[12],
 	basicOne()
 );
 
-const daniel = new pieces("", "#f5a", "#b36", "#fce", tipoAlma[10],
+const daniel = new pieces("", "#ff55aa", "#bb3366", "#ffccee", tipoAlma[10],
 	"daniel", "Daniel", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1144,7 +1144,7 @@ const daniel = new pieces("", "#f5a", "#b36", "#fce", tipoAlma[10],
 	basicOne()
 );
 
-const emma = new pieces("", "#", "#", "#", tipoAlma[0],
+const emma = new pieces("", "#a86ff3", "#782bd1", "#e3c0ff", tipoAlma[12],
 	"emma", "Emma", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1182,7 +1182,7 @@ const emma = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const violeta = new pieces("", "#", "#", "#", tipoAlma[0],
+const violeta = new pieces("", "#7638bd", "#4f1388", "#cc96ff", tipoAlma[8],
 	"violeta", "Alec", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1220,7 +1220,7 @@ const violeta = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const alec = new pieces("", "#", "#", "#", tipoAlma[0],
+const alec = new pieces("", "#d46a13", "#94440e", "#ffc75e", tipoAlma[7],
 	"alec", "Alec", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1258,7 +1258,7 @@ const alec = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const christian = new pieces("", "#", "#", "#", tipoAlma[0],
+const christian = new pieces("", "#1949af", "#0a2d6e", "#80b5f1", tipoAlma[4],
 	"christian", "Christian", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1296,7 +1296,7 @@ const christian = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const mariaD = new pieces("", "#", "#", "#", tipoAlma[0],
+const mariaD = new pieces("", "#5c8343", "#355814", "#badf83", tipoAlma[0],
 	"mariaD", "Maria", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -1334,7 +1334,7 @@ const mariaD = new pieces("", "#", "#", "#", tipoAlma[0],
 	basicOne()
 );
 
-const gavya = new pieces("", "#", "#", "#", tipoAlma[0],
+const gavya = new pieces("", "#29af7c", "#137a53", "#abffe3", tipoAlma[12],
 	"gavya", "Gavya", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",

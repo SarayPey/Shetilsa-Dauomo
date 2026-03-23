@@ -20,7 +20,7 @@ const tipoAlma				= ["⮝", "☀︎", "☁︎", "⚠︎", "◆", "★", "✿", "
 // ---------------------- 0 --- 1 -- 2 --- 3 --- 4 -- 5 -- 6 --- 7 --- 8 -- 9 -- 10 -- 11 -- 12 - 13 -------------------- //
 
 class pieces {
-	constructor(imgIcon, col1, col2, col3, tipAlma, varName, nombre, titulo, piezanombre, Cortdesc, desc,
+	constructor(imgIcon, col1, col2, col3, tipAlma, varName, nombre, titulo, piezanombre, cortDesc, desc,
 		idleDialogo, endingDialog, seeEndDialog, endDialogo, revivalDialog,
 		habilidades, defaMov) {
 		this.imgIcon = imgIcon;
@@ -32,7 +32,7 @@ class pieces {
 		this.nombre = nombre; // Nombre de personaje
 		this.titulo = titulo; // Título canon de personaje
 		this.piezanombre = piezanombre; // Nombre de la pieza
-		this.Cortdesc = Cortdesc; // Resumen para jugadores casuales
+		this.cortDesc = cortDesc; // Resumen para jugadores casuales
 		this.desc = desc; // Descripción larga
 		this.idleDialogo = idleDialogo; // Diálogos en momento de preparación (mínimo 5)
 		this.endingDialog = endingDialog; // Díalogos cuando acaba con una ficha (mínimo 5)

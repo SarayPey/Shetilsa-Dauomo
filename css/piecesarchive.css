@@ -66,89 +66,28 @@ nav a #active {
 	transform: scale(1.2);
 }
 
-#willowF {
-	filter: hue-rotate(-180deg)
-	brightness(70%)
-	contrast(250%)
-	saturate(200%)
-	drop-shadow(0 0 5px #000000);
+main {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
 }
-#sara {
-	filter: hue-rotate(5deg)
-	brightness(75%)
-	contrast(150%)
-	saturate(250%)
-	drop-shadow(0 0 5px #000000);
-}
-#akane {
-	filter: hue-rotate(-40deg)
-	brightness(60%)
-	contrast(300%)
-	saturate(100%)
-	drop-shadow(0 0 5px #000000);
-}
-#nero {
-	filter: hue-rotate(50deg)
-	brightness(70%)
-	contrast(130%)
-	saturate(150%)
-	drop-shadow(0 0 5px #000000);
-}
-#akiko {
-	filter: hue-rotate(15deg)
-	brightness(100%)
-	contrast(150%)
-	saturate(200%)
-	drop-shadow(0 0 5px #000000);
-}
-#ayame {
-	filter: hue-rotate(50deg)
-	brightness(110%)
-	contrast(100%)
-	saturate(200%)
-	drop-shadow(0 0 5px #000000);
-}
-#melissa{
-	filter: hue-rotate(-150deg)
-	brightness(60%)
-	contrast(170%)
-	saturate(175%)
-	drop-shadow(0 0 5px #000000);
-}
-#adam {
-	filter: hue-rotate(-7deg)
-	brightness(90%)
-	contrast(110%)
-	saturate(250%)
-	drop-shadow(0 0 5px #000000);
-}
-#adamEmo {
-	filter: hue-rotate(-15deg)
-	brightness(50%)
-	contrast(150%)
-	saturate(200%)
-	drop-shadow(0 0 5px #000000);
-}
-#brayan{
-	filter: hue-rotate(100deg)
-	brightness(65%)
-	contrast(170%)
-	saturate(200%)
-	drop-shadow(0 0 5px #000000);
-}
-#brayanRedim{
-	filter: hue-rotate(100deg)
-	brightness(45%)
-	contrast(150%)
-	saturate(250%)
-	drop-shadow(0 0 5px #000000);
-}
-#brayanSab{
-	filter: hue-rotate(100deg)
-	brightness(35%)
-	contrast(130%)
-	saturate(250%)
-	drop-shadow(0 0 5px #000000);
+
+#dialogo {
+	background-color: #ffffff;
+	color: #000000;
+	width: 500px;
+	height: 250px;
+	border-radius: 10px;
+	font-size: 25px;
+	font-family: atma, cursive;
+	text-align: left;
+	align-content: center;
+	padding: 25px;
+	padding-bottom: 70px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 200;
 }
 
 @keyframes dmgtake {

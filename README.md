@@ -18,7 +18,7 @@ Damas + ajedrez + habilidades de juegos RPG + lore(fantasía * traumas) + creado
 
 No begginer-friendly, pero habrá un tutorial de juego y otras mecánicas disponibles.
 
-<small>Solo se puede jugar si tienes acceso a internet, un navegador y un amigo en la vida real que quiera jugar algo re complejo. No se paga la terapia por los daños emocionales que este juego pueda causar.</small>
+<small>Solo se puede jugar si tienes acceso a internet, un navegador y una persona en la vida real que esté interesado en jugar algo re complejo. Yo no pago la terapia por los daños emocionales que este juego le pueda causar.</small>
 
 <small>Otra cosita, como no he puesto sistema de cuentas y demás (porque no sé cómo hacer eso), la información de peleas ganadas se va a perder. Sorry 😔</small>
 

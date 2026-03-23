@@ -1,13 +1,18 @@
 import { adam, aiyana, akiko, alec, alejandro, alexa, andres, brayan, brisa, cara, christian, connor, daniel, darya, diana, eleanor, eliza, eivor, emma, erin, evelyn, gavya, jacob, jadyn, jamesL, joseph, laura, luis, mariaD, maryam, melissa, michael, olexei, orfeo, serafin, violeta } from "./game/data/dataP/canon.js";
 import { brayanSab, brayanRedim, adamEmo } from "./game/data/dataP/extra.js"
 function idle(pieceObj){
-    console.log("Llamando a " + pieceObj.nombre + " (" + pieceObj.piezanombre + ").")
-    if (!pieceObj || !pieceObj.idleDialogo) return;
-    const dialogos = pieceObj.idleDialogo;
-    const idleD = dialogos[Math.floor(Math.random() * dialogos.length)];
-    console.log(idleD)
-    document.getElementById("dialogo").textContent = pieceObj.nombre + ": " + idleD;
-    console.log(pieceObj.nombre + " (" + pieceObj.piezanombre + ") ha respondido")
+        console.log("Llamando a " + pieceObj.nombre + " (" + pieceObj.piezanombre + ").")
+        if (!pieceObj || !pieceObj.idleDialogo) return;
+        const dialogos = pieceObj.idleDialogo;
+        const idleD = dialogos[Math.floor(Math.random() * dialogos.length)];
+        console.log(idleD)
+        // Schedules a function to be executed after 5000 milliseconds (5 seconds)
+            document.getElementById("dialogo").textContent = pieceObj.nombre + ": " + idleD;
+            document.getElementById("dialogo").style.color = pieceObj.col1;
+            console.log(pieceObj.nombre + " (" + pieceObj.piezanombre + ") ha respondido");
+        setTimeout(() => {
+        document.getElementById("dialogo").style.color = "#00000000"
+        }, 1000);
 };
 
 function dead(pieceObj){
