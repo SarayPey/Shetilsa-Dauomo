@@ -23,3 +23,5 @@ No begginer-friendly, pero habrá un tutorial de juego y otras mecánicas dispon
 <small>Otra cosita, como no he puesto sistema de cuentas y demás (porque no sé cómo hacer eso), la información de peleas ganadas se va a perder. Sorry 😔</small>
 
 <small>Pero al menos por ese detalle tenemos a todos los personajes gratis, cero anuncios ni planes de pago, es muy F2P, si me preguntan</small>
+
+[INGRESA AQUÍ](https://saraypey.github.io/Shetilsa-Dauomo/)
