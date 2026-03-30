@@ -34,7 +34,7 @@ const cookingWar = new habilidades("Guerra cocinera",
 const hobbyChef = new habilidades("Chef por pasatiempo",
 	tipoHabilidades[0], nivPoder[2],
 	"Al activar, puede revivir a cualquier aliado de la mesa con un pastel\
-	Adicional, tanto él como el aliado revivido reciben 'Dulce vigorizante',\
+	adicional, tanto él como el aliado revivido reciben 'Dulce vigorizante',\
 	el cual sube el poder de las habilidades en uno hasta que Adam active la\
 	habilidad 'alba del admadis' o reciba el efecto 'intolerancia al café'.",
 	["*Sonríe* Un pequeño pasatiempo no mata a nadie.",

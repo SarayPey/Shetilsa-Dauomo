@@ -50,7 +50,7 @@ function leaderSabotageMov() {
 // 	let objetivo = ""
 // 	wetDisaster = true
 // 	if (objetivo.name === "Adam") {
-// 			const dialg = ["¿Café?", "Oh no…", "*Tose* ¿Quién fue?", "No es un buen momento para esto, Brayan,"]
+// 			const dialg = ["¿Café?", "Oh no…", "*Tose* ¿Quién fue?", "No es un buen momento para esto, Brayan.", "No me siento… bien…"]
 // 			const reaccion = dialg[Math.floor(Math.random() * dialg.length)];
 // 	document.getElementById("dialogo").textContent = objetivo.nombre + ": " + reaccion;
 // 		}

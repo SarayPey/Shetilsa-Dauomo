@@ -6,7 +6,6 @@ function idle(pieceObj){
         const dialogos = pieceObj.idleDialogo;
         const idleD = dialogos[Math.floor(Math.random() * dialogos.length)];
         console.log(idleD)
-        // Schedules a function to be executed after 5000 milliseconds (5 seconds)
             document.getElementById("dialogo").textContent = pieceObj.nombre + ": " + idleD;
             document.getElementById("dialogo").style.color = pieceObj.col1;
             console.log(pieceObj.nombre + " (" + pieceObj.piezanombre + ") ha respondido");

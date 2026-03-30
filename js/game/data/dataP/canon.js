@@ -69,7 +69,7 @@ const melissa = new pieces("", '#5009ae', '#2a0766', '#0e0118', tipoAlma[3],
 	 "Adam…",
 	 "Esto no estaba en los planes…",
 	 "Supongo que…",
-	 "Michael…	"
+	 "Michael…"
 	],
 	["¿Estoy de vuelta?",
 	 "Gracias a los primordiales",
@@ -347,7 +347,7 @@ const joseph = new pieces("", "#ca2323", "#860f0f", "#380404", tipoAlma[0],
 	basicOne()
 );
 
-const laura = new pieces("", "#25bd20", "#048f22", "#74fc70ff", tipoAlma[6],
+const laura = new pieces("", "#25bd20", "#048f22", "#74fc70", tipoAlma[6],
 	"laura", "Laura", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -537,7 +537,7 @@ const andres = new pieces("", "#0050ff", "#00307f", "#50d0f0", tipoAlma[0],
 	basicOne()
 );
 
-const alejandro = new pieces("", "#ffef77", "#e0b525", "#9e5a00ff", tipoAlma[7],
+const alejandro = new pieces("", "#ffef77", "#e0b525", "#9e5a00", tipoAlma[7],
 	"alejandro", "Alejandro", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
@@ -613,7 +613,7 @@ const michael = new pieces("", "#00afff", "#006aaa", "#aaffff", tipoAlma[9],
 	basicOne()
 );
 
-const connor = new pieces("", "#67b424", "#297c0f", "#092502ff", tipoAlma[5],
+const connor = new pieces("", "#67b424", "#297c0f", "#092502", tipoAlma[5],
 	"connor", "Connor", "titulo", "nameP",
 	"Descripción corta",
 	"Descripción larga",
