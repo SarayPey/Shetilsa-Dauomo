@@ -29,7 +29,7 @@ window.onload = () => {
   window.idle = idle;
 
   window.melissa   = melissa;
-  window.brayanSab = brayanSab;
+  window.brayanSab = brayanSab; 
   window.akiko     = akiko;
   window.darya     = darya;
   window.diana     = melissa;
